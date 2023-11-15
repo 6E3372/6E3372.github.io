@@ -7,7 +7,7 @@ layout:
     visible: true
     size: hero
   title:
-    visible: false
+    visible: true
   description:
     visible: true
   tableOfContents:
@@ -18,7 +18,7 @@ layout:
     visible: false
 ---
 
-# 6E3372
+# 👋 Welcome !
 
 ## hello guys! You are welcome here!
 

@@ -1,6 +1,6 @@
 # Table of contents
 
-* [6E3372](README.md)
+* [👋 Welcome !](README.md)
 
 ## 🚩 CTF Writeups
 
