@@ -10,6 +10,14 @@
       * [Tugasan I : Seruan Perwira](ctf-writeups/3108-ctf/kategori/tugasan-utama-warkah-untuk-perwira/tugasan-i-seruan-perwira.md)
       * [Tugasan II : Tali Barut](ctf-writeups/3108-ctf/kategori/tugasan-utama-warkah-untuk-perwira/tugasan-ii-tali-barut.md)
       * [Warkah Akhir](ctf-writeups/3108-ctf/kategori/tugasan-utama-warkah-untuk-perwira/warkah-akhir.md)
+    * [Web](ctf-writeups/3108-ctf/kategori/web/README.md)
+      * [Lemah](ctf-writeups/3108-ctf/kategori/web/lemah.md)
+      * [Pantun Pantul](ctf-writeups/3108-ctf/kategori/web/pantun-pantul.md)
+      * [Wantujus](ctf-writeups/3108-ctf/kategori/web/wantujus.md)
+      * [Wantusom](ctf-writeups/3108-ctf/kategori/web/wantusom.md)
+    * [Reverse Engineering](ctf-writeups/3108-ctf/kategori/reverse-engineering/README.md)
+      * [Pa+rio+ik](ctf-writeups/3108-ctf/kategori/reverse-engineering/pa+rio+ik.md)
+      * [Sarawak](ctf-writeups/3108-ctf/kategori/reverse-engineering/sarawak.md)
 
 ## 📚 Notes
 
