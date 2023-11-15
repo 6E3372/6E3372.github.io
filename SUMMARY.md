@@ -12,4 +12,5 @@
 
 ## 😸 whoami
 
-* [Page 1](whoami/page-1.md)
+* [About Me](whoami/about-me.md)
+* [Other](whoami/other.md)
