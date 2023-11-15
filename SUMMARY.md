@@ -18,6 +18,12 @@
     * [Reverse Engineering](ctf-writeups/3108-ctf/kategori/reverse-engineering/README.md)
       * [Pa+rio+ik](ctf-writeups/3108-ctf/kategori/reverse-engineering/pa+rio+ik.md)
       * [Sarawak](ctf-writeups/3108-ctf/kategori/reverse-engineering/sarawak.md)
+    * [Network](ctf-writeups/3108-ctf/kategori/network/README.md)
+      * [Johan](ctf-writeups/3108-ctf/kategori/network/johan.md)
+      * [Lagi-lagi Johan](ctf-writeups/3108-ctf/kategori/network/lagi-lagi-johan.md)
+    * [Misc](ctf-writeups/3108-ctf/kategori/misc/README.md)
+      * [3108 CTF Town](ctf-writeups/3108-ctf/kategori/misc/3108-ctf-town.md)
+      * [Mencari Rahsia Si Dia](ctf-writeups/3108-ctf/kategori/misc/mencari-rahsia-si-dia.md)
 
 ## 📚 Notes
 
