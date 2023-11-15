@@ -2,7 +2,7 @@
 
 ***
 
-<figure><img src="../../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -10,9 +10,9 @@
 
 Diberi file `ELF 64-bit` bernama chall yang meminta kita memasukkan flag.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Analisa file tersebut menggunakan ghidra, kita mendapati bahawa bendera tersebut diencrypt di fungsi [#encrypt](pa+rio+ik.md#encrypt "mention") lalu dibandingkan dengan bendera sebenar yang telah diencrypt pada [#main](pa+rio+ik.md#main "mention") program.
 
@@ -20,11 +20,11 @@ Salah satu cara menyelesaikan tugasan ini adalah dengan dekod semula bendera seb
 
 Satu cara lagi adalah dengan bruteforce. Saya sedar bahawa apabila kita memasukkan format bendera yang bermula dengan `3108{`, program tersebut mengucapkan terima kasih, bermaksud bendera kita adalah betul
 
-<figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Maka, saya bruteforce program tersebut secara manual menggunakan deskripsi yang diberikan pada soalan iaitu "Bangsa" sehingga mendapatkan bendera yang sebenar 😄
 
-<figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

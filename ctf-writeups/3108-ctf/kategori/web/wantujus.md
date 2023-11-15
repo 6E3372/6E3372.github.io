@@ -2,13 +2,13 @@
 
 ***
 
-<figure><img src="../../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
 ## Penyelesaian
 
-<figure><img src="../../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 Wah, apakah ini? Permainan wantujus? hahaha
 
@@ -16,7 +16,7 @@ Mari kita lihat apa yang menarik disini
 
 Terdapat `script.js` pada sources page ini.
 
-<figure><img src="../../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
 
 Untuk mendapatkan bendera, kita harus memastikan `winCount===10`.
 

@@ -24,6 +24,14 @@
     * [Misc](ctf-writeups/3108-ctf/kategori/misc/README.md)
       * [3108 CTF Town](ctf-writeups/3108-ctf/kategori/misc/3108-ctf-town.md)
       * [Mencari Rahsia Si Dia](ctf-writeups/3108-ctf/kategori/misc/mencari-rahsia-si-dia.md)
+    * [Cryptography](ctf-writeups/3108-ctf/kategori/cryptography/README.md)
+      * [1957bit](ctf-writeups/3108-ctf/kategori/cryptography/1957bit.md)
+      * [Nasihat](ctf-writeups/3108-ctf/kategori/cryptography/nasihat.md)
+      * [Selamat Malam](ctf-writeups/3108-ctf/kategori/cryptography/selamat-malam.md)
+    * [OSINT](ctf-writeups/3108-ctf/kategori/osint/README.md)
+      * [Pertemuan Kapisata : Babak I](ctf-writeups/3108-ctf/kategori/osint/pertemuan-kapisata-babak-i.md)
+      * [Pertemuan Kapista : Babak II](ctf-writeups/3108-ctf/kategori/osint/pertemuan-kapista-babak-ii.md)
+      * [Pertemuan Kapista : Finale](ctf-writeups/3108-ctf/kategori/osint/pertemuan-kapista-finale.md)
 
 ## 📚 Notes
 

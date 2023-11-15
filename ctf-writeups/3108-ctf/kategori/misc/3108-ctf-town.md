@@ -2,7 +2,7 @@
 
 ***
 
-<figure><img src="../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -10,7 +10,7 @@
 
 Diberi file `.gba` (Game Boy Advance)
 
-<figure><img src="../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 Saya menggunakan [VBA Emulator](https://www.emulatorgames.net/emulators/gameboy-advance/visualboyadvance-m-64-bit-2-0-2/) untuk tugasan ini.
 
@@ -22,7 +22,7 @@ Ikuti sahaja langkah yang diberikan dalam game tersebut dan pada akhirnya kita d
 
 Jika menang, bendera akan diberi
 
-<figure><img src="../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

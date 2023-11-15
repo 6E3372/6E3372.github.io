@@ -2,7 +2,7 @@
 
 ***
 
-<figure><img src="../../../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (21) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -12,7 +12,7 @@ Lihat video Youtube pada pautan tersebut.
 
 Scan QR code yang diberi dan isi Google Form.
 
-<figure><img src="../../../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (22) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
