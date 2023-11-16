@@ -1,4 +1,20 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # pwn
+
+* Basically pwn (Binary Exploitation) is one of the CTF category that needs you to play with the binary of a code. Mostly it will be a C language or ELF, but don't be suprise if the challenge give you other than that
 
 ## Basic Checking
 
@@ -10,5 +26,10 @@
 |        strace `filename`       | trace system calls and signals                    |
 | objdump -M intel -d `filename` | displaying various information about object files |
 
-## Exploit the vuln
+{% content-ref url="format-string-vulnerability.md" %}
+[format-string-vulnerability.md](format-string-vulnerability.md)
+{% endcontent-ref %}
 
+{% content-ref url="integer-overflow.md" %}
+[integer-overflow.md](integer-overflow.md)
+{% endcontent-ref %}

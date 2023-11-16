@@ -14,6 +14,12 @@ In any language, not only C, have its own [variable type](#user-content-fn-1)[^1
 
 For a better understanding on how it works, look at your analog clock. The clock has a limit of 12 numbers only. Let say the time right now is 9 am. In 12 hours, the clocks points back at number 9 but in pm. It does not point at number 21 right? Yeah that's how i understanding the limitations (i know it does not make sense, but why not :rofl:)
 
+## Tips :clipboard:
+
+1. Knowing the limitation of the variable type is a must
+2. Try to input something so that the variable will exceed the limit
+3. \--
+
 [^1]: char, int, float, double etc..
 
 [^2]: signed, unsigned, short, long
