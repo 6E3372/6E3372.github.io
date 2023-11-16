@@ -20,7 +20,7 @@ layout:
 
 **Interest :** pwn & rev
 
-**Other Interest :** Marvel Cinematic Universe, Music, Rugby (i do play sports tho haha)
+**Other Interest :** Marvel Cinematic Universe, Music
 
 
 

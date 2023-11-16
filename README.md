@@ -1,7 +1,8 @@
 ---
-description: This is for my personal blog, CTF writeups, or maybe some research
-cover: .gitbook/assets/im getting snack.jpg
-coverY: 56
+description: Please have a nice visit here, any suggestion can contact me.
+cover: >-
+  https://www.rxwallpaper.site/wp-content/uploads/guardians-of-the-galaxy-baby-groot-live-wallpaper-wallpaper-hd-gallery-800x800.jpg
+coverY: 86
 layout:
   cover:
     visible: true
@@ -20,11 +21,7 @@ layout:
 
 # 👋 Welcome !
 
-## hello guys! You are welcome here!
-
-i will make some notes about rev and pwn (eventough i already have obsidian :skull:) and some writeups for my past CTF competition or maybe certain question that i found interesting
-
-
+This is purposely for my writeups, notes and maybe some research.
 
 stay tune yall ! :smile:
 
