@@ -1,4 +1,5 @@
 ---
+description: Will update synchronizing with my knowledge
 layout:
   title:
     visible: true
@@ -12,5 +13,5 @@ layout:
     visible: false
 ---
 
-# SOON
+# CTF Related
 

@@ -35,7 +35,8 @@
 
 ## 📚 Notes
 
-* [SOON](notes/soon.md)
+* [CTF Related](notes/ctf-related/README.md)
+  * [pwn](notes/ctf-related/pwn.md)
 
 ## 😸 whoami
 

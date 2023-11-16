@@ -1,0 +1,238 @@
+# pwn
+
+## Basic Checking
+
+|             Command            | Explaination                                      |
+| :----------------------------: | ------------------------------------------------- |
+|         file `filename`        | to know what file type is the file                |
+|       strings `filename`       | print all printable strings                       |
+|       checksec `filename`      | check the properties of an executable             |
+|        strace `filename`       | trace system calls and signals                    |
+| objdump -M intel -d `filename` | displaying various information about object files |
+
+## Exploit the vuln
+
+### Format String Attack
+
+**Definition :** bug that take advantage of an easily avoidable programmer error. If the programmer passes an attacker-controlled buffer as an argument to a printf (or any of the related functions), the attacker can perform writes to arbitrary memory addresses
+
+#### Format function&#x20;
+
+**Definition :** Is a function which converts a primitive variable of the programming language into a human-readable string representation
+
+Below is an example of Format Function that vulnerable to Format String Attack :&#x20;
+
+<table data-full-width="true"><thead><tr><th align="center">Format Function</th></tr></thead><tbody><tr><td align="center">fprint</td></tr><tr><td align="center">printf</td></tr><tr><td align="center">sprintf</td></tr><tr><td align="center">snprintf</td></tr><tr><td align="center">vfprintf</td></tr><tr><td align="center">vprintf</td></tr><tr><td align="center">vsprintf</td></tr><tr><td align="center">vsnprintf</td></tr></tbody></table>
+
+#### Format Parameter
+
+**Definition :** like **%x %s** defines the type of conversion of the format function
+
+Below is an example of Format Parameter that can be useful for you :
+
+| Parameter |                     Output                     | Passed as |
+| :-------: | :--------------------------------------------: | :-------: |
+|    `%%`   |                    character                   | reference |
+|     %p    |  External representation of a pointer to void  | reference |
+|     %d    |                     decimal                    |   value   |
+|     %c    |                    character                   |           |
+|     %u    |                unsigned decimal                |   value   |
+|     %x    |                      hexa                      |   value   |
+|     %s    |                     string                     | reference |
+|     %n    | Writes the number of characters into a pointer | reference |
+
+#### Example
+
+Let's take the example from PicoCTF.
+
+Challenge Name : Stonk Market
+
+<pre class="language-c" data-title="vuln.c" data-line-numbers><code class="lang-c">#include &#x3C;stdlib.h>
+#include &#x3C;stdio.h>
+#include &#x3C;string.h>
+#include &#x3C;time.h>
+
+#define FLAG_BUFFER 128
+#define MAX_SYM_LEN 4
+
+typedef struct Stonks {
+        int shares;
+        char symbol[MAX_SYM_LEN + 1];
+        struct Stonks *next;
+} Stonk;
+
+typedef struct Portfolios {
+        int money;
+        Stonk *head;
+} Portfolio;
+
+int view_portfolio(Portfolio *p) {
+        if (!p) {
+                return 1;
+        }
+        printf("\nPortfolio as of ");
+        fflush(stdout);
+        system("date"); // TODO: implement this in C
+        fflush(stdout);
+
+        printf("\n\n");
+        Stonk *head = p->head;
+        if (!head) {
+                printf("You don't own any stonks!\n");
+        }
+        while (head) {
+                printf("%d shares of %s\n", head->shares, head->symbol);
+                head = head->next;
+        }
+        return 0;
+}
+
+Stonk *pick_symbol_with_AI(int shares) {
+        if (shares &#x3C; 1) {
+                return NULL;
+        }
+        Stonk *stonk = malloc(sizeof(Stonk));
+        stonk->shares = shares;
+
+        int AI_symbol_len = (rand() % MAX_SYM_LEN) + 1;
+        for (int i = 0; i &#x3C;= MAX_SYM_LEN; i++) {
+                if (i &#x3C; AI_symbol_len) {
+                        stonk->symbol[i] = 'A' + (rand() % 26);
+                } else {
+                        stonk->symbol[i] = '\0';
+                }
+        }
+
+        stonk->next = NULL;
+
+        return stonk;
+}
+
+int buy_stonks(Portfolio *p) {
+        if (!p) {
+                return 1;
+        }
+        /*
+        char api_buf[FLAG_BUFFER];
+        FILE *f = fopen("api","r");
+        if (!f) {
+                printf("Flag file not found\n");
+                exit(1);
+        }
+        fgets(api_buf, FLAG_BUFFER, f);
+        */
+        int money = p->money;
+        int shares = 0;
+        Stonk *temp = NULL;
+        printf("Using patented AI algorithms to buy stonks\n");
+        while (money > 0) {
+                shares = (rand() % money) + 1;
+                temp = pick_symbol_with_AI(shares);
+                temp->next = p->head;
+                p->head = temp;
+                money -= shares;
+        }
+        printf("Stonks chosen\n");
+
+<strong>        char *user_buf = malloc(300 + 1);
+</strong><strong>        printf("What is your API token?\n");
+</strong><strong>        scanf("%300s", user_buf);
+</strong><strong>        printf("Buying stonks with token:\n");
+</strong><strong>        printf(user_buf);
+</strong>
+        // TODO: Actually use key to interact with API
+
+        view_portfolio(p);
+
+        return 0;
+}
+
+Portfolio *initialize_portfolio() {
+        Portfolio *p = malloc(sizeof(Portfolio));
+        p->money = (rand() % 2018) + 1;
+        p->head = NULL;
+        return p;
+}
+
+void free_portfolio(Portfolio *p) {
+        Stonk *current = p->head;
+        Stonk *next = NULL;
+        while (current) {
+                next = current->next;
+                free(current);
+                current = next;
+        }
+        free(p);
+}
+
+int main(int argc, char *argv[])
+{
+        setbuf(stdout, NULL);
+        srand(time(NULL));
+        Portfolio *p = initialize_portfolio();
+        if (!p) {
+                printf("Memory failure\n");
+                exit(1);
+        }
+
+        int resp = 0;
+
+        printf("Welcome back to the trading app!\n\n");
+        printf("What would you like to do?\n");
+        printf("1) Buy some stonks!\n");
+        printf("2) View my portfolio\n");
+        scanf("%d", &#x26;resp);
+
+        if (resp == 1) {
+                buy_stonks(p);
+        } else if (resp == 2) {
+                view_portfolio(p);
+        }
+
+        free_portfolio(p);
+        printf("Goodbye!\n");
+
+        exit(0);
+}
+</code></pre>
+
+Have a look at the code given. Do you notice something?
+
+Line 88-92 is vulnerable to Format String Attack
+
+So we need to enter the Format Parameter like **%x-%x-%x-%x-%x-%x** into the program to leak some of the memory
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>See where the memory got leaked?</p></figcaption></figure>
+
+Yeah that's how you use it :sunglasses::thumbsup:
+
+#### Tips :clipboard:
+
+1. If you don't get the leaked memory that you need, just spam the Format Parameter a lot. Yes, a lot. It can be up to hundreds but you should get what you want in just a few.
+2. Let say you want to display just a certain part of the memory, try using this **%n$p** . n is an index of the memory that you want. This certainly help you.
+3. When you got the memory leaked (some will be in hex or depends on what parameter you put), put that in Cyberchef and let it cook. If you don't see what you want yet, just remember that binary number can change the translated data. So, don't be shy to remove the binary one by one until it reveal itself.
+4. If i got another, i will write here :handshake:
+
+### Integer Overflow
+
+**Definition :** Overflow the limitation of a program with an integer.&#x20;
+
+#### Limitations On Integers in C
+
+In any language, not only C, have its own [variable type](#user-content-fn-1)[^1] and [type modifiers](#user-content-fn-2)[^2]. It has it's own limitation value. However, in can be limited by the program itself.
+
+|               Min               | Variable Type / Type Modifiers |               Max              |
+| :-----------------------------: | :----------------------------: | :----------------------------: |
+|           -32,768 bits          |              short             |           32,767 bits          |
+|          -2,147,483,648         |               int              |          2,147,483,647         |
+| -9,223,372,036,854,775,808 bits |              long              | 9,223,372,036,854,775,807 bits |
+|                0                |       unsigned short int       |             65,535             |
+|                0                |          unsigned int          |          4,294,967,295         |
+|               -128              |          signed char           |               127              |
+|                0                |          unsigned char         |               255              |
+
+For a better understanding on how it works, look at your analog clock. The clock has a limit of 12 numbers only. Let say the time right now is 9 am. In 12 hours, the clocks points back at number 9 but in pm. It does not point at number 21 right? Yeah that's how i understanding the limitations (i know it does not make sense, but why not :rofl:)
+
+[^1]: char, int, float, double etc..
+
+[^2]: signed, unsigned, short, long
