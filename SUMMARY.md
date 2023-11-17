@@ -40,6 +40,7 @@
     * [Format String Vulnerability](notes/ctf-related/pwn/format-string-vulnerability.md)
     * [Integer Overflow](notes/ctf-related/pwn/integer-overflow.md)
     * [Executable Properties](notes/ctf-related/pwn/executable-properties.md)
+    * [gdb-gef](notes/ctf-related/pwn/gdb-gef.md)
 
 ## 😸 whoami
 

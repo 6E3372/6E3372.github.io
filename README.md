@@ -21,7 +21,4 @@ layout:
 
 # 👋 Welcome !
 
-This is purposely for my writeups, notes and maybe some research.
-
-stay tune yall ! :smile:
-
+This is purposely for my personal blog, ctf writeups, notes and maybe some research.

@@ -33,3 +33,7 @@ layout:
 {% content-ref url="integer-overflow.md" %}
 [integer-overflow.md](integer-overflow.md)
 {% endcontent-ref %}
+
+{% content-ref url="executable-properties.md" %}
+[executable-properties.md](executable-properties.md)
+{% endcontent-ref %}
