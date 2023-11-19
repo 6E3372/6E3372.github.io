@@ -32,6 +32,9 @@
       * [Pertemuan Kapisata : Babak I](ctf-writeups/3108-ctf/kategori/osint/pertemuan-kapisata-babak-i.md)
       * [Pertemuan Kapista : Babak II](ctf-writeups/3108-ctf/kategori/osint/pertemuan-kapista-babak-ii.md)
       * [Pertemuan Kapista : Finale](ctf-writeups/3108-ctf/kategori/osint/pertemuan-kapista-finale.md)
+* [1337UP LIVE CTF](ctf-writeups/1337up-live-ctf/README.md)
+  * [Pwn](ctf-writeups/1337up-live-ctf/pwn/README.md)
+    * [Floor Mat Store](ctf-writeups/1337up-live-ctf/pwn/floor-mat-store.md)
 
 ## 📚 Notes
 
