@@ -44,6 +44,7 @@
     * [Integer Overflow](notes/ctf-related/pwn/integer-overflow.md)
     * [Executable Properties](notes/ctf-related/pwn/executable-properties.md)
     * [gdb-gef](notes/ctf-related/pwn/gdb-gef.md)
+    * [Simple Script](notes/ctf-related/pwn/simple-script.md)
 
 ## 😸 whoami
 
