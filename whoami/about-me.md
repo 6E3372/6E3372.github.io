@@ -42,6 +42,7 @@ I think it is safe to say that i am a newbie, considering i starting to explore 
 | 7th     | D0R3M1 | Siber Siaga CTF Finals |
 | 6th     | N4B4T1 | Curtin Malaysia CTF    |
 | 17th    | B4W4NG | Petronas Graduate CTF  |
+| 7th     | N4B4T1 | Game Of Hackers 2023   |
 {% endtab %}
 {% endtabs %}
 

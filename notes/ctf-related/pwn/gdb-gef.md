@@ -25,3 +25,16 @@
 | disass main    | look at **main** function / disassamble **main** function |
 | info func      | show all functions                                        |
 |                |                                                           |
+
+### Others
+
+| Command                                       | Explaination                                                          |
+| --------------------------------------------- | --------------------------------------------------------------------- |
+| bt                                            | print backtrace                                                       |
+| canary                                        | check the canary                                                      |
+| fmtstr-helper                                 | format string helper                                                  |
+| heap-analysis                                 | heap analysis                                                         |
+| reg                                           | print the registers                                                   |
+| pattern create `n`                            | create a payload eg. pattern create 100                               |
+| pattern offset `spesific part of the payload` | check the offset number eg. pattern offset $rbp / pattern offset jaaa |
+

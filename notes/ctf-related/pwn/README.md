@@ -37,3 +37,7 @@ layout:
 {% content-ref url="executable-properties.md" %}
 [executable-properties.md](executable-properties.md)
 {% endcontent-ref %}
+
+{% content-ref url="gdb-gef.md" %}
+[gdb-gef.md](gdb-gef.md)
+{% endcontent-ref %}
