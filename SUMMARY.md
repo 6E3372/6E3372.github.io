@@ -35,6 +35,9 @@
 * [1337UP LIVE CTF](ctf-writeups/1337up-live-ctf/README.md)
   * [Pwn](ctf-writeups/1337up-live-ctf/pwn/README.md)
     * [Floor Mat Store](ctf-writeups/1337up-live-ctf/pwn/floor-mat-store.md)
+* [SKR CTF](ctf-writeups/skr-ctf/README.md)
+  * [Binary](ctf-writeups/skr-ctf/binary/README.md)
+    * [Auth Me 2.0](ctf-writeups/skr-ctf/binary/auth-me-2.0.md)
 
 ## 📚 Notes
 
