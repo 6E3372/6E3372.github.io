@@ -41,6 +41,12 @@
 * [Curtin CTF 2023](ctf-writeups/curtin-ctf-2023/README.md)
   * [Pwn n Rev](ctf-writeups/curtin-ctf-2023/pwn-n-rev/README.md)
     * [Classic Bufferoverflow](ctf-writeups/curtin-ctf-2023/pwn-n-rev/classic-bufferoverflow.md)
+    * [Intro to Buffer Overflow](ctf-writeups/curtin-ctf-2023/pwn-n-rev/intro-to-buffer-overflow.md)
+    * [Don't Go Overboard](ctf-writeups/curtin-ctf-2023/pwn-n-rev/dont-go-overboard.md)
+    * [Don't Go Overboard 2](ctf-writeups/curtin-ctf-2023/pwn-n-rev/dont-go-overboard-2.md)
+    * [Let The Random Games Begin1](ctf-writeups/curtin-ctf-2023/pwn-n-rev/let-the-random-games-begin1.md)
+    * [Let The Random Games Begin 2](ctf-writeups/curtin-ctf-2023/pwn-n-rev/let-the-random-games-begin-2.md)
+    * [Let The Random Games Begin 3](ctf-writeups/curtin-ctf-2023/pwn-n-rev/let-the-random-games-begin-3.md)
 
 ## 📚 Notes
 

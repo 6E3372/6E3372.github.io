@@ -22,7 +22,7 @@ Ikuti sahaja langkah yang diberikan dalam game tersebut dan pada akhirnya kita d
 
 Jika menang, bendera akan diberi
 
-<figure><img src="../../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

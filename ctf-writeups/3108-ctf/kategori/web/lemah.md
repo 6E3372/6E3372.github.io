@@ -2,7 +2,7 @@
 
 ***
 
-<figure><img src="../../../../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (10) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -10,7 +10,7 @@
 
 Mari kita lihat apa yang ada pada website tersebut
 
-<figure><img src="../../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Wow ianya adalah "Login Page" yang biasa kita lihat.
 
@@ -18,7 +18,7 @@ Wow ianya adalah "Login Page" yang biasa kita lihat.
 
 Mari kita lihat di sources, mungkin ada yang menarik di situ?
 
-<figure><img src="../../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Betul tekaan saya. Diberi `auth.js` adalah satu code javascript kepada login page tersebut.
 
@@ -48,7 +48,7 @@ print(ascii)
 ```
 {% endcode %}
 
-<figure><img src="../../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Oh, passwordnya adalah bendera kita! Terbaik 👍
 

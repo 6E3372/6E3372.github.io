@@ -2,7 +2,7 @@
 
 ***
 
-<figure><img src="../../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -10,7 +10,7 @@
 
 Mari lihat apa yang diberikan di pautan Youtube tersebut
 
-<figure><img src="../../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 Terdapat mesej penting didalam video tersebut.
 
@@ -20,7 +20,7 @@ Seperti dinyatakan dalam video tersebut, kita perlu mencari satu account di medi
 
 Dan, Bendera terkandung pada posting terbaru beliau
 
-<figure><img src="../../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
