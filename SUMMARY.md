@@ -38,6 +38,8 @@
 * [SKR CTF](ctf-writeups/skr-ctf/README.md)
   * [Binary](ctf-writeups/skr-ctf/binary/README.md)
     * [Auth Me 2.0](ctf-writeups/skr-ctf/binary/auth-me-2.0.md)
+  * [Misc](ctf-writeups/skr-ctf/misc/README.md)
+    * [Schrodinger's Cat 2](ctf-writeups/skr-ctf/misc/schrodingers-cat-2.md)
 * [Curtin CTF 2023](ctf-writeups/curtin-ctf-2023/README.md)
   * [Pwn n Rev](ctf-writeups/curtin-ctf-2023/pwn-n-rev/README.md)
     * [Classic Bufferoverflow](ctf-writeups/curtin-ctf-2023/pwn-n-rev/classic-bufferoverflow.md)
