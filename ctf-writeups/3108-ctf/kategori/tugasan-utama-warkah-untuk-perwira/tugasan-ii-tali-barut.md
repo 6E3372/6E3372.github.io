@@ -24,13 +24,13 @@ Mencari username ITSLOKI adalah agak mustahil kerana terlalu banyak dan susah un
 
 Jadi saya mencari akaun milik Bahtera Siber.
 
-<figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 dan melihat followers akaun tersebut.
 
 Tanpa sengaja, saya terjumpa satu akaun bernama `p3tualang`
 
-<figure><img src="../../../../.gitbook/assets/image (8) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Tanpa ragu-ragu, saya pergi ke akaun tersebut dan mendapati satu link ke discord server ITSLOKI pada salah satu videonya
 
