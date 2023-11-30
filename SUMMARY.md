@@ -59,6 +59,13 @@
     * [Executable Properties](notes/ctf-related/pwn/executable-properties.md)
     * [gdb-gef](notes/ctf-related/pwn/gdb-gef.md)
     * [Simple Script](notes/ctf-related/pwn/simple-script.md)
+* [Networking Related](notes/networking-related/README.md)
+  * [OSPF](notes/networking-related/ospf/README.md)
+    * [Concepts](notes/networking-related/ospf/concepts.md)
+    * [Configuration](notes/networking-related/ospf/configuration.md)
+  * [ACL](notes/networking-related/acl/README.md)
+    * [Concepts](notes/networking-related/acl/concepts.md)
+    * [Configuration](notes/networking-related/acl/configuration.md)
 
 ## 😸 whoami
 
