@@ -66,6 +66,9 @@
   * [ACL](notes/networking-related/acl/README.md)
     * [Concepts](notes/networking-related/acl/concepts.md)
     * [Configuration](notes/networking-related/acl/configuration.md)
+  * [NAT](notes/networking-related/nat.md)
+  * [PAT](notes/networking-related/pat/README.md)
+    * [Configuration](notes/networking-related/pat/configuration.md)
 
 ## 😸 whoami
 
