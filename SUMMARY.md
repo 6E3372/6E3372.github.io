@@ -59,6 +59,7 @@
     * [Executable Properties](notes/ctf-related/pwn/executable-properties.md)
     * [gdb-gef](notes/ctf-related/pwn/gdb-gef.md)
     * [Simple Script](notes/ctf-related/pwn/simple-script.md)
+  * [b2r/koth](notes/ctf-related/b2r-koth.md)
 * [Networking Related](notes/networking-related/README.md)
   * [OSPF](notes/networking-related/ospf/README.md)
     * [Concepts](notes/networking-related/ospf/concepts.md)
