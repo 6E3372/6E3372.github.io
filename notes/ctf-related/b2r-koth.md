@@ -1,6 +1,11 @@
+---
+cover: https://wallpaperaccess.com/full/96948.jpg
+coverY: 21
+---
+
 # b2r/koth
 
-## Start
+## <mark style="color:green;">Start</mark>
 
 ### Scan ports
 
@@ -30,7 +35,7 @@ gobuster dir -u <ip> -w /usr/share/wordlists/dirb/common.txt
 
 ***
 
-## Password Cracking
+## <mark style="color:green;">Password Cracking</mark>
 
 ### JohnTheRipper
 
@@ -47,13 +52,13 @@ ssh2john <filename>
 
 ***
 
-## RevShell
+## <mark style="color:green;">RevShell</mark>
 
 {% embed url="https://www.revshells.com/" %}
 
 ***
 
-## PrivEsc
+## <mark style="color:green;">PrivEsc</mark>
 
 ```bash
 sudo -l 
@@ -66,7 +71,7 @@ might help a lot!
 
 ***
 
-## Defend The Title :crown:
+## <mark style="color:green;">Defend The Title</mark> :crown:
 
 ```bash
 chattr +i /root/king.txt
@@ -86,7 +91,7 @@ kill -9 <PROCESS ID>
 
 ***
 
-## Other
+## <mark style="color:green;">Other</mark>
 
 ### Interactive TTY
 
