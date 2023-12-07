@@ -40,6 +40,8 @@
     * [Auth Me 2.0](ctf-writeups/skr-ctf/binary/auth-me-2.0.md)
   * [Misc](ctf-writeups/skr-ctf/misc/README.md)
     * [Schrodinger's Cat 2](ctf-writeups/skr-ctf/misc/schrodingers-cat-2.md)
+  * [Reverse Engineering](ctf-writeups/skr-ctf/reverse-engineering/README.md)
+    * [Nogard 3](ctf-writeups/skr-ctf/reverse-engineering/nogard-3.md)
 * [Curtin CTF 2023](ctf-writeups/curtin-ctf-2023/README.md)
   * [Pwn n Rev](ctf-writeups/curtin-ctf-2023/pwn-n-rev/README.md)
     * [Classic Bufferoverflow](ctf-writeups/curtin-ctf-2023/pwn-n-rev/classic-bufferoverflow.md)
