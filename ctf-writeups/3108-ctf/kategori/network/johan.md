@@ -14,7 +14,7 @@ Buka file tersebut dan tapis paket **http** kerana Johan melayari sebuah laman s
 
 Terdapat beberapa paket ditunjukkan tetapi hanya satu yang menarik perhatian saya. Iaitu paket kedua terakhir dengan request header **POST**
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Right click pada paket tersebut dan ikuti **HTTP Stream**
 
@@ -22,7 +22,7 @@ Terdapat beberapa perkara menarik disini.
 
 Disebabkan laman sesawang yang Johan layari tersebut adalah dalam HTTP, maka kita dapat lihat apa yang diisi oleh Johan pada ruangan credential.
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Seperti yang kita tahu, nombor-nombor itu adalah dalam binary. Jadi, tukarkannya kepada bentuk yang kita boleh baca
 

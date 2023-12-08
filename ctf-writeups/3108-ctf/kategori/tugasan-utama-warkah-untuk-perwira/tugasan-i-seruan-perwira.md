@@ -2,7 +2,7 @@
 
 ***
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -10,7 +10,7 @@
 
 Klik pada pautan Youtube tersebut, dan kita diberi satu file untuk dimuatnaik dan dianalisis.
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Apabila selesai mengestrek file `.zip` tersebut, terdapat file `.eml` dengan nama file dalam bentuk morse code.
 

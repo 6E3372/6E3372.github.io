@@ -41,7 +41,7 @@ The following are the link-state routing steps that are completed by a router to
 
 * All routers are in one area. Best practice is to use area 0
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -51,7 +51,7 @@ The following are the link-state routing steps that are completed by a router to
 * All areas must connect to the backbone area (area 0).
 * Routers interconnecting the areas are referred to as Area Border Routers (ABRs)
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th width="248">Advantage</th><th>Explaination</th></tr></thead><tbody><tr><td>Smaller routing tables</td><td>Tables are smaller because there are fewer routing table entries. This is because network addresses can be summarized between areas. Route summarization is not enabled by default.</td></tr><tr><td>Reduced link-state update overhead</td><td>Designing multiarea OSPF with smaller areas minimizes processing and memory requirements.</td></tr><tr><td>Reduced frequency of SPF calculations</td><td>Multiarea OSPF localize the impact of a topology change within an area. For instance, it minimizes routing update impact because LSA flooding stops at the area boundary.</td></tr></tbody></table>
 
