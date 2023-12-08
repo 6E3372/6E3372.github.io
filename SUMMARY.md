@@ -51,6 +51,8 @@
     * [Let The Random Games Begin1](ctf-writeups/curtin-ctf-2023/pwn-n-rev/let-the-random-games-begin1.md)
     * [Let The Random Games Begin 2](ctf-writeups/curtin-ctf-2023/pwn-n-rev/let-the-random-games-begin-2.md)
     * [Let The Random Games Begin 3](ctf-writeups/curtin-ctf-2023/pwn-n-rev/let-the-random-games-begin-3.md)
+* [University CTF 2023 - Brains and Bytes](ctf-writeups/university-ctf-2023-brains-and-bytes/README.md)
+  * [Windows Of Opportunity](ctf-writeups/university-ctf-2023-brains-and-bytes/windows-of-opportunity.md)
 
 ## 📚 Notes
 
