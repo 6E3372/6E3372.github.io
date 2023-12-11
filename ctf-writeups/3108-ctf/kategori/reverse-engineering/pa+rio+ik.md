@@ -10,9 +10,9 @@
 
 Diberi file `ELF 64-bit` bernama chall yang meminta kita memasukkan flag.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Analisa file tersebut menggunakan ghidra, kita mendapati bahawa bendera tersebut diencrypt di fungsi [#encrypt](pa+rio+ik.md#encrypt "mention") lalu dibandingkan dengan bendera sebenar yang telah diencrypt pada [#main](pa+rio+ik.md#main "mention") program.
 
