@@ -52,7 +52,8 @@
     * [Let The Random Games Begin 2](ctf-writeups/curtin-ctf-2023/pwn-n-rev/let-the-random-games-begin-2.md)
     * [Let The Random Games Begin 3](ctf-writeups/curtin-ctf-2023/pwn-n-rev/let-the-random-games-begin-3.md)
 * [HTB University CTF 2023](ctf-writeups/htb-university-ctf-2023/README.md)
-  * [Windows Of Opportunity](ctf-writeups/htb-university-ctf-2023/windows-of-opportunity.md)
+  * [Reverse Engineering](ctf-writeups/htb-university-ctf-2023/reverse-engineering/README.md)
+    * [Windows Of Opportunity](ctf-writeups/htb-university-ctf-2023/reverse-engineering/windows-of-opportunity.md)
 
 ## 📚 Notes
 
