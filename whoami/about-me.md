@@ -45,6 +45,14 @@ I think it is safe to say that i am a newbie, considering i starting to explore 
 | 7th     | N4B4T1  | Game Of Hackers 2023         |
 | 17th    | K3NT4NG | Asean Battle Of Hackers 2023 |
 {% endtab %}
+
+{% tab title="2024" %}
+| Ranking | Team | Event |
+| ------- | ---- | ----- |
+|         |      |       |
+|         |      |       |
+|         |      |       |
+{% endtab %}
 {% endtabs %}
 
 ## MCU Character Once Said...
