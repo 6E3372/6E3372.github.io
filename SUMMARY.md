@@ -75,17 +75,6 @@
   * [NAT](notes/networking-related/nat.md)
   * [PAT](notes/networking-related/pat/README.md)
     * [Configuration](notes/networking-related/pat/configuration.md)
-  * [Network Design](notes/networking-related/network-design/README.md)
-    * [Top-down network design methodology](notes/networking-related/network-design/top-down-network-design-methodology/README.md)
-      * [Identifying Your Customer's Needs and Goals](notes/networking-related/network-design/top-down-network-design-methodology/identifying-your-customers-needs-and-goals/README.md)
-        * [Analyzing Business Goals and Constraints](notes/networking-related/network-design/top-down-network-design-methodology/identifying-your-customers-needs-and-goals/analyzing-business-goals-and-constraints.md)
-        * [Analyzing Technical Goals and Tradeoffs](notes/networking-related/network-design/top-down-network-design-methodology/identifying-your-customers-needs-and-goals/analyzing-technical-goals-and-tradeoffs.md)
-        * [Characterizing the Existing Internetwork](notes/networking-related/network-design/top-down-network-design-methodology/identifying-your-customers-needs-and-goals/characterizing-the-existing-internetwork.md)
-        * [Characterizing Network Traffic](notes/networking-related/network-design/top-down-network-design-methodology/identifying-your-customers-needs-and-goals/characterizing-network-traffic.md)
-      * [Logical Network Design](notes/networking-related/network-design/top-down-network-design-methodology/logical-network-design/README.md)
-        * [Designing a Network Topology](notes/networking-related/network-design/top-down-network-design-methodology/logical-network-design/designing-a-network-topology.md)
-        * [Designing Models for Addressing and Numbering](notes/networking-related/network-design/top-down-network-design-methodology/logical-network-design/designing-models-for-addressing-and-numbering.md)
-        * [Selecting Switching and Routing Protocols](notes/networking-related/network-design/top-down-network-design-methodology/logical-network-design/selecting-switching-and-routing-protocols.md)
 
 ## 😸 whoami
 

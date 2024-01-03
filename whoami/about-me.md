@@ -20,7 +20,7 @@ layout:
 
 **Interest :** pwn & rev
 
-**Other Interest :** Marvel Cinematic Universe, Music
+**Other Interest :** Marvel Cinematic Universe, Taylor Swift
 
 
 
@@ -36,13 +36,14 @@ I think it is safe to say that i am a newbie, considering i starting to explore 
 {% endtab %}
 
 {% tab title="2023" %}
-| Ranking | Team   | Event                  |
-| ------- | ------ | ---------------------- |
-| 30th    | -      | 3108 CTF               |
-| 7th     | D0R3M1 | Siber Siaga CTF Finals |
-| 6th     | N4B4T1 | Curtin Malaysia CTF    |
-| 17th    | B4W4NG | Petronas Graduate CTF  |
-| 7th     | N4B4T1 | Game Of Hackers 2023   |
+| Ranking | Team    | Event                        |
+| ------- | ------- | ---------------------------- |
+| 30th    | -       | 3108 CTF                     |
+| 7th     | D0R3M1  | Siber Siaga CTF Finals       |
+| 6th     | N4B4T1  | Curtin Malaysia CTF          |
+| 17th    | B4W4NG  | Petronas Graduate CTF        |
+| 7th     | N4B4T1  | Game Of Hackers 2023         |
+| 17th    | K3NT4NG | Asean Battle Of Hackers 2023 |
 {% endtab %}
 {% endtabs %}
 
