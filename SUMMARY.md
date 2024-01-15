@@ -67,6 +67,7 @@
   * [b2r/koth](notes/ctf-related/b2r-koth.md)
 * [Networking Related](notes/networking-related/README.md)
   * [Basic Configuration](notes/networking-related/basic-configuration.md)
+  * [Config Switch to use SSH](notes/networking-related/config-switch-to-use-ssh.md)
   * [OSPF](notes/networking-related/ospf/README.md)
     * [Concepts](notes/networking-related/ospf/concepts.md)
     * [Configuration](notes/networking-related/ospf/configuration.md)
@@ -74,11 +75,9 @@
     * [Concepts](notes/networking-related/acl/concepts.md)
     * [Configuration](notes/networking-related/acl/configuration.md)
   * [NAT](notes/networking-related/nat.md)
-  * [PAT](notes/networking-related/pat/README.md)
-    * [Configuration](notes/networking-related/pat/configuration.md)
+  * [PAT](notes/networking-related/pat.md)
   * [VLAN](notes/networking-related/vlan.md)
   * [STP](notes/networking-related/stp.md)
-  * [Config Switch to use SSH](notes/networking-related/config-switch-to-use-ssh.md)
   * [CDP](notes/networking-related/cdp.md)
 
 ## 😸 whoami

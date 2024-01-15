@@ -1,3 +1,7 @@
+---
+description: Virtual Local Area Network
+---
+
 # VLAN
 
 ## Creating VLANs

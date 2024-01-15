@@ -1,3 +1,7 @@
+---
+description: Spanning Tree Protocol
+---
+
 # STP
 
 ## Adjust STP Priority

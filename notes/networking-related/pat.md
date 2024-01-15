@@ -1,4 +1,8 @@
-# Configuration
+---
+description: Port Address Translation
+---
+
+# PAT
 
 ### Using single IPv4 address
 

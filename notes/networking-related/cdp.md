@@ -1,3 +1,7 @@
+---
+description: Cisco Discovery Protocol
+---
+
 # CDP
 
 ## Enable
