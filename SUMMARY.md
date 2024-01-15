@@ -75,6 +75,9 @@
   * [NAT](notes/networking-related/nat.md)
   * [PAT](notes/networking-related/pat/README.md)
     * [Configuration](notes/networking-related/pat/configuration.md)
+  * [Basic Configuration](notes/networking-related/basic-configuration.md)
+  * [VLAN](notes/networking-related/vlan.md)
+  * [STP](notes/networking-related/stp.md)
 
 ## 😸 whoami
 
