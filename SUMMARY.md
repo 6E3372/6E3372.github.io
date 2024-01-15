@@ -81,6 +81,7 @@
   * [CDP](notes/networking-related/cdp.md)
   * [VTP](notes/networking-related/vtp.md)
   * [DTP](notes/networking-related/dtp.md)
+  * [Etherchannel](notes/networking-related/etherchannel.md)
 
 ## 😸 whoami
 
