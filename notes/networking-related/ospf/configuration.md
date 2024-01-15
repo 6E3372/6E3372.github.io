@@ -4,8 +4,11 @@
 
 ### Enable OSPFv2
 
-* `router ospf <process-id>`&#x20;
-* process id can be from 1-65535
+```
+R1(config)# router ospf <process-id>    //process id can be from 1-65535
+```
+
+***
 
 ### Config Loopback as Router ID
 
@@ -15,6 +18,8 @@ R1(config-if)# ip address 1.1.1.1 255.255.255.255
 R1(config-if)# end
 ```
 
+***
+
 ### Expicitly Config Router ID
 
 ```
@@ -22,6 +27,8 @@ R1(config)# router ospf 10
 R1(config-router)# router id 1.1.1.1
 R1(config-router)# end
 ```
+
+***
 
 ### Point-to-Point OSPF
 
@@ -54,3 +61,12 @@ R1(config-if)# ip ospf <process-id> area <area-id>
 {% endtab %}
 {% endtabs %}
 
+***
+
+## Verify&#x20;
+
+```
+R1# show ip protocols
+R1# show ip route
+R1# show ip route ospf
+```

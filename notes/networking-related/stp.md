@@ -60,4 +60,5 @@ S1(config)# spanning-tree portfast bpduguard default
 ```
 S1# sh spanning-tree
 S1# sh spanning-tree root    //verify Root ID and Root Port
+S1# debug spanning-tree events    //info about changes in STP topology
 ```
