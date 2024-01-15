@@ -79,6 +79,8 @@
   * [VLAN](notes/networking-related/vlan.md)
   * [STP](notes/networking-related/stp.md)
   * [CDP](notes/networking-related/cdp.md)
+  * [VTP](notes/networking-related/vtp.md)
+  * [DTP](notes/networking-related/dtp.md)
 
 ## 😸 whoami
 
