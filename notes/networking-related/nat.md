@@ -1,32 +1,19 @@
 # NAT
 
-### Intro
-
-* NAT (Network Address Translation)
-
 ## Static NAT
 
-### Config
-
 ```
+//config static NAT statement
 R1(config)# ip nat inside source static <private ip> <public ip>
+
 R1(config)# int serial 0/1/0
-R1(config-if)# ip address 192.168.1.2 255.255.255.252
 R1(config-if)# ip nat inside
 R1(config-if)# exit
 R1(config)# int serial 0/1/1
-R1(config-if)# ip address 209.165.200.1 255.255.255.252
 R1(config-if)# ip nat outside
 
 //inside for private
 //outside for public
-```
-
-### Verify
-
-```
-R1# sh ip nat translations //shows active NAT
-R1# sh ip nat statistics
 ```
 
 ***
@@ -45,17 +32,29 @@ Step 4 - Identify which interfaces are inside.
 
 Step 5 - Identify which interfaces are outside.
 
-{% code lineNumbers="true" %}
 ```
+//create a pool of public ip address
 R1(config)# ip nat pool <pool name> <public ip from> <public ip to> netmask <mask>
+
+//creat ACL that determine the IP address that are allowed to be translated
 R1(config)# access-list 1 permit 192.168.0.0 0.0.255.255
+
+//config NAT statement
 R1(config)# ip nat inside source list 1 pool <pool name>
+
+//define inside outside interfaces
 R1(config)# interface serial 0/1/0
 R1(config-if)# ip nat inside
 R1(config-if)# interface serial 0/1/1
 R1(config-if)# ip nat outside
 ```
-{% endcode %}
 
-### Verify
+***
 
+### Verify and Troubleshoot
+
+```
+R1# sh ip nat translations //shows active NAT
+R1# sh ip nat statistics
+R1# debug ip nat
+```
