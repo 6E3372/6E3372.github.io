@@ -4,7 +4,7 @@
 
 {% code overflow="wrap" %}
 ```
-R1(config)# access-list <acl num> <action> <source wildcard>
+R1(config)# access-list <acl num> <action> <source> <source wildcard>
 ```
 {% endcode %}
 
