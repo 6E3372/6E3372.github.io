@@ -1,6 +1,8 @@
-# Configuration
+---
+description: Open Short Path First
+---
 
-## Basic
+# OSPF
 
 ### Enable OSPFv2
 

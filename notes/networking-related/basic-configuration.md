@@ -23,3 +23,24 @@ R1(config)# banner motd $ Authorized Users Only! $    //creat banner
 R1# copy running-config startup-config    //save the config
 ```
 {% endcode %}
+
+***
+
+## Config Loopback
+
+```
+R1(config)# int loopback 0
+R1(config-if)# ip address <ip> <mask>
+```
+
+***
+
+## Config Router Interfaces
+
+```
+R1(config)# int g<slot><port> // g0/1
+R1(config-if)# ip address <ip> <mask>
+R1(config-if)# no shut
+R1(config-if)# end
+// repeat for other interfaces
+```
