@@ -82,6 +82,7 @@
   * [VTP](notes/networking-related/vtp.md)
   * [DTP](notes/networking-related/dtp.md)
   * [Etherchannel](notes/networking-related/etherchannel.md)
+  * [HSRP](notes/networking-related/hsrp.md)
 
 ## 😸 whoami
 
