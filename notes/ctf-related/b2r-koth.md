@@ -37,6 +37,12 @@ gobuster dir -u <ip> -w /usr/share/wordlists/dirb/common.txt
 
 ## <mark style="color:green;">Password Cracking</mark>
 
+### Hydra
+
+```bash
+hydra -l <username> -P /path/to/rockyou.txt <service> <targer ip>
+```
+
 ### JohnTheRipper
 
 ```bash
@@ -50,7 +56,15 @@ ssh2john <filename>
 #id_rsa to hash
 ```
 
+### zip2john
+
+```bash
+zip2john <zip file> > <txt file>
+```
+
 ***
+
+
 
 ## <mark style="color:green;">RevShell</mark>
 
