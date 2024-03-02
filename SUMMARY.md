@@ -4,6 +4,9 @@
 
 ## 🚩 CTF Writeups
 
+* [osu!gaming CTF 2024](ctf-writeups/osu-gaming-ctf-2024/README.md)
+  * [pwn](ctf-writeups/osu-gaming-ctf-2024/pwn/README.md)
+    * [betterthanu](ctf-writeups/osu-gaming-ctf-2024/pwn/betterthanu.md)
 * [3108 CTF](ctf-writeups/3108-ctf/README.md)
   * [Kategori](ctf-writeups/3108-ctf/kategori/README.md)
     * [Tugasan Utama : Warkah Untuk Perwira](ctf-writeups/3108-ctf/kategori/tugasan-utama-warkah-untuk-perwira/README.md)
