@@ -81,7 +81,7 @@ okay lets go line by line here.
 
 <summary>Line 21</summary>
 
-the code indicates that my\_pp will always pp + 1, each time we run the program
+the code indicates that `my_pp` will always `pp + 1`, each time we run the program
 
 </details>
 
@@ -89,9 +89,9 @@ the code indicates that my\_pp will always pp + 1, each time we run the program
 
 <summary>Line 26</summary>
 
-this line checks for pp is smaller or equal to my\_pp.
+this line checks for `pp` is smaller or equal to `my_pp`.
 
-So, to bypass this checking, we must input a higher value for pp than my\_pp
+So, to bypass this checking, we must input a higher value for `pp` than `my_pp`
 
 </details>
 
@@ -99,17 +99,17 @@ So, to bypass this checking, we must input a higher value for pp than my\_pp
 
 <summary>Line 33</summary>
 
-Further in the if else statement, we can see that if pp == 727, we can get the flag.
+Further in the if else statement, we can see that `if pp == 727`, we can get the flag.
 
 </details>
 
 
 
-Okay, so, now we know how the program works. We can do integer overflow for pp, but we cannot bypass the Line 33 statement.
+Okay, so, now we know how the program works. We can do integer overflow for variable `pp`, but we cannot bypass the Line 33 statement.
 
 <figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-We must enter pp as 727 to get the flag. So i think it is not about integer flow, but we can do a buffer overflow on Line 23, which the program need as to input any word here.&#x20;
+We must enter `pp` as 727 to get the flag. So i think it is not about integer flow, but we can do a buffer overflow on Line 23, which the program need as to input any word here.&#x20;
 
 
 
