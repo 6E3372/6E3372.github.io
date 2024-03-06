@@ -4,9 +4,6 @@
 
 ## 🚩 CTF Writeups
 
-* [osu!gaming CTF 2024](ctf-writeups/osu-gaming-ctf-2024/README.md)
-  * [pwn](ctf-writeups/osu-gaming-ctf-2024/pwn/README.md)
-    * [betterthanu](ctf-writeups/osu-gaming-ctf-2024/pwn/betterthanu.md)
 * [3108 CTF](ctf-writeups/3108-ctf/README.md)
   * [Kategori](ctf-writeups/3108-ctf/kategori/README.md)
     * [Tugasan Utama : Warkah Untuk Perwira](ctf-writeups/3108-ctf/kategori/tugasan-utama-warkah-untuk-perwira/README.md)
@@ -57,6 +54,13 @@
 * [HTB University CTF 2023](ctf-writeups/htb-university-ctf-2023/README.md)
   * [Reverse Engineering](ctf-writeups/htb-university-ctf-2023/reverse-engineering/README.md)
     * [Windows Of Opportunity](ctf-writeups/htb-university-ctf-2023/reverse-engineering/windows-of-opportunity.md)
+* [osu!gaming CTF 2024](ctf-writeups/osu-gaming-ctf-2024/README.md)
+  * [pwn](ctf-writeups/osu-gaming-ctf-2024/pwn/README.md)
+    * [betterthanu](ctf-writeups/osu-gaming-ctf-2024/pwn/betterthanu.md)
+* [rENTAS CTF 2024](ctf-writeups/rentas-ctf-2024/README.md)
+  * [Qualifying Round](ctf-writeups/rentas-ctf-2024/qualifying-round/README.md)
+    * [Rev](ctf-writeups/rentas-ctf-2024/qualifying-round/rev/README.md)
+      * [Resign Letter](ctf-writeups/rentas-ctf-2024/qualifying-round/rev/resign-letter.md)
 
 ## 📚 Notes
 
