@@ -47,11 +47,11 @@ I think it is safe to say that i am a newbie, considering i starting to explore 
 {% endtab %}
 
 {% tab title="2024" %}
-| Ranking | Team | Event |
-| ------- | ---- | ----- |
-|         |      |       |
-|         |      |       |
-|         |      |       |
+| Ranking | Team   | Event                 |
+| ------- | ------ | --------------------- |
+| 7th     | R3BUNG | Final RENTAS CTF 2024 |
+|         |        |                       |
+|         |        |                       |
 {% endtab %}
 {% endtabs %}
 

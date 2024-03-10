@@ -1,2 +1,0 @@
-# Resign Letter
-

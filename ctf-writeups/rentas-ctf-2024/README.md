@@ -1,2 +1,0 @@
-# rENTAS CTF 2024
-

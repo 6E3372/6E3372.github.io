@@ -57,10 +57,6 @@
 * [osu!gaming CTF 2024](ctf-writeups/osu-gaming-ctf-2024/README.md)
   * [pwn](ctf-writeups/osu-gaming-ctf-2024/pwn/README.md)
     * [betterthanu](ctf-writeups/osu-gaming-ctf-2024/pwn/betterthanu.md)
-* [rENTAS CTF 2024](ctf-writeups/rentas-ctf-2024/README.md)
-  * [Qualifying Round](ctf-writeups/rentas-ctf-2024/qualifying-round/README.md)
-    * [Rev](ctf-writeups/rentas-ctf-2024/qualifying-round/rev/README.md)
-      * [Resign Letter](ctf-writeups/rentas-ctf-2024/qualifying-round/rev/resign-letter.md)
 
 ## 📚 Notes
 
