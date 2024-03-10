@@ -85,6 +85,7 @@
     * [DTP](notes/networking-related/switch/dtp.md)
     * [Etherchannel](notes/networking-related/switch/etherchannel.md)
     * [Config Switch to use SSH](notes/networking-related/switch/config-switch-to-use-ssh.md)
+* [Assembly Language](notes/assembly-language.md)
 
 ## 😸 whoami
 
