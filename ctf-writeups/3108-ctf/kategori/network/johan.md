@@ -14,7 +14,7 @@ Buka file tersebut dan tapis paket **http** kerana Johan melayari sebuah laman s
 
 Terdapat beberapa paket ditunjukkan tetapi hanya satu yang menarik perhatian saya. Iaitu paket kedua terakhir dengan request header **POST**
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Right click pada paket tersebut dan ikuti **HTTP Stream**
 

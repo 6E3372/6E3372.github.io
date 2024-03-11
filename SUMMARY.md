@@ -58,6 +58,10 @@
   * [pwn](ctf-writeups/osu-gaming-ctf-2024/pwn/README.md)
     * [betterthanu](ctf-writeups/osu-gaming-ctf-2024/pwn/betterthanu.md)
 
+## 👽 Threat Hunting
+
+* [Intro](threat-hunting/intro.md)
+
 ## 📚 Notes
 
 * [CTF Related](notes/ctf-related/README.md)
