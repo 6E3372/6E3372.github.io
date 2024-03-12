@@ -61,6 +61,7 @@
 ## 👽 Threat Hunting
 
 * [Intro](threat-hunting/intro.md)
+* [Foothold](threat-hunting/foothold.md)
 
 ## 📚 Notes
 
