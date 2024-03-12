@@ -61,7 +61,7 @@
 ## 👽 Threat Hunting
 
 * [Intro](threat-hunting/intro.md)
-* [Foothold](threat-hunting/foothold.md)
+* [Common Tactics](threat-hunting/common-tactics.md)
 
 ## 📚 Notes
 
