@@ -91,6 +91,7 @@
     * [Etherchannel](notes/networking-related/switch/etherchannel.md)
     * [Config Switch to use SSH](notes/networking-related/switch/config-switch-to-use-ssh.md)
 * [Assembly Language](notes/assembly-language.md)
+* [x86 Architecture](notes/x86-architecture.md)
 
 ## 😸 whoami
 
