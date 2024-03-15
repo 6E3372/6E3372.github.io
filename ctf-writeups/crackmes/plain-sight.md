@@ -6,11 +6,11 @@
 
 ## Solution
 
-An ELF 64-bits given
+An ELF 64-bits file is given
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-The program need a password to verify be verified
+The program need a password to be verified
 
 <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
@@ -20,7 +20,7 @@ As we see below, the `main` function called `Login` function.
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-So, at `Login` function, we can see it checks for a password at line 16, where the program will return "Welcome!" if we input the password _do\_not\_hardcode_.
+So, at `Login` function, we can see that it checks for a password at line 16. The program will return "Welcome!" text if we input the password _do\_not\_hardcode_.
 
 <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
