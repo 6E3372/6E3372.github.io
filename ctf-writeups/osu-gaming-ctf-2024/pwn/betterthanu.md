@@ -2,7 +2,7 @@
 
 ***
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -10,7 +10,7 @@
 
 when running the program, we need to enter how many pp we got and type any last word.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 okay from this, i think i know what to do. So let's take a look at the source code.
 
@@ -107,7 +107,7 @@ Further in the if else statement, we can see that `if pp == 727`, we can get the
 
 Okay, so, now we know how the program works. We can do integer overflow for variable `pp`, but we cannot bypass the Line 33 statement.
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 We must enter `pp` as 727 to get the flag. So i think it is not about integer flow, but we can do a buffer overflow on Line 23, which the program need as to input any word here.&#x20;
 
@@ -117,7 +117,7 @@ So, the pp will be 727, and "Any last words?" will be 16 bit of a's.
 
 
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

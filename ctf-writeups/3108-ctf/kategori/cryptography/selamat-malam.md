@@ -2,7 +2,7 @@
 
 ***
 
-<figure><img src="../../../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (8) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -14,7 +14,7 @@ Mari kita lihat
 
 Apakah ini? Saya pun bingung pada awalnya. Lirik lagu kah?
 
-<figure><img src="../../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Tanpa ragu-ragu saya masukkan text tersebut ke Recognize Cipher di website [dcode](https://www.dcode.fr/).
 

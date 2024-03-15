@@ -57,6 +57,8 @@
 * [osu!gaming CTF 2024](ctf-writeups/osu-gaming-ctf-2024/README.md)
   * [pwn](ctf-writeups/osu-gaming-ctf-2024/pwn/README.md)
     * [betterthanu](ctf-writeups/osu-gaming-ctf-2024/pwn/betterthanu.md)
+* [Crackmes](ctf-writeups/crackmes/README.md)
+  * [Plain Sight](ctf-writeups/crackmes/plain-sight.md)
 
 ## 👽 Threat Hunting
 

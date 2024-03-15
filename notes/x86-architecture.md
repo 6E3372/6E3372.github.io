@@ -4,6 +4,8 @@ description: from Malware analysis pov, thanks to Tryhackme for this room
 
 # x86 Architecture
 
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 **Control Unit**
 
 * gets instructions from the main memory, depicted here outside the CPU
@@ -39,7 +41,7 @@ description: from Malware analysis pov, thanks to Tryhackme for this room
 * used during the general execution of instructions by the CPU
 * In 64-bit systems, these registers are extended as 64-bit registers
 
-<figure><img src="../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (64).png" alt="" width="375"><figcaption></figcaption></figure>
 
 {% tabs %}
 {% tab title="Accumulator" %}
@@ -159,7 +161,80 @@ description: from Malware analysis pov, thanks to Tryhackme for this room
 
 ***
 
+## Memory
 
+<figure><img src="../.gitbook/assets/image (1).png" alt="" width="188"><figcaption></figcaption></figure>
+
+### Code
+
+* contains the program's code
+* refers to the text section in a Portable Executable file, which includes instructions executed by the CPU
+* has execute permissions, meaning that the CPU can execute the data in this section of the program memory
+
+### Data
+
+* contains initialized data that is not variable and remains constant
+* refers to the data section in a Portable Executable file
+* often contains Global variables and other data that are not supposed to change during the program's execution
+
+### Heap
+
+* known as dynamic Memory
+* contains variables and data created and destroyed during program execution
+* When a variable is created, memory is allocated for that variable at runtime. And when that variable is deleted, the memory is freed
+
+### Stack
+
+* contains local variables, arguments passed on to the program, and the return address of the parent process that called the program
+
+***
+
+## Stack Layout
+
+* Last In First Out (LIFO) memory
+* The CPU uses [two registers](#user-content-fn-5)[^5] to keep track of the stack
+
+<figure><img src="../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure>
+
+### The Stack Pointer
+
+* points to the top of the stack
+* When any new element is pushed on the stack, the location of the Stack Pointer changes to consider the new element that was pushed on the stack. Similarly, when an element is popped off the stack, the stack pointer adjusts itself to reflect that change
+
+### The Base Pointer
+
+* remains constant
+* This is the reference address where the current program stack tracks its local variables and arguments.
+
+### Old Base Pointer and Return Address
+
+* Base Pointer -> Old Base Pointer -> Return Address
+* Stack Buffer Overflow
+  * overflow a local variable on the stack such that it overwrites the Return Address with an address of the malware author's choice
+
+### Arguments
+
+* Arguments being passed to a function are pushed to the stack before the function starts execution
+* hese arguments are present right below the Return Address on the stack
+
+### Function Prologue
+
+* Purpose
+  * to set up a clean environment for the function to execute, ensuring proper access to function arguments, local variables, and providing a mechanism for the function to return to its caller.
+* the necessary setup is done before the function's main body executes
+  * Pushing arguments onto the stack.
+  * Saving the previous base pointer (if any) onto the stack.
+  * Setting the base pointer (BP) to the current stack pointer (SP), establishing a new stack frame.
+  * Optionally, allocating space on the stack for local variables.
+
+### Function Epilogue
+
+* Purpose
+  * to restore the state of the calling function after the called function completes execution.
+* cleanup is performed before the function returns
+  * Restoring the previous base pointer by popping it off the stack.
+  * Popping the return address from the stack into the instruction pointer (IP), allowing the program to resume execution after the function call.
+  * Adjusting the stack pointer (SP) to its previous position before the function call.
 
 [^1]: Instruction Pointer
 
@@ -168,3 +243,6 @@ description: from Malware analysis pov, thanks to Tryhackme for this room
 [^3]: Extended Instruction Pointer
 
 [^4]: Register Instruction Pointer
+
+[^5]: * Stack Pointer (ESP or RSP)
+    * Base Pointer (EBP or RBP)

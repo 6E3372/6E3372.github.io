@@ -2,7 +2,7 @@
 
 ***
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -14,7 +14,7 @@ When i run the program, actually the number is not so random :joy:
 
 The numbers given are fixed in the sequence like the image below.
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 So, i copy n pasta the random number given in the sequence until i got the flag.
 
