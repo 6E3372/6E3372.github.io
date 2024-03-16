@@ -4,7 +4,7 @@ description: from Malware analysis pov, thanks to Tryhackme for this room
 
 # x86 Architecture
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 **Control Unit**
 
@@ -163,7 +163,7 @@ description: from Malware analysis pov, thanks to Tryhackme for this room
 
 ## Memory
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 ### Code
 
@@ -194,7 +194,7 @@ description: from Malware analysis pov, thanks to Tryhackme for this room
 * Last In First Out (LIFO) memory
 * The CPU uses [two registers](#user-content-fn-5)[^5] to keep track of the stack
 
-<figure><img src="../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### The Stack Pointer
 

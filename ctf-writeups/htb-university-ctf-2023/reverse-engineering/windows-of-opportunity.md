@@ -6,7 +6,7 @@ description: HTB 2023
 
 ***
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -30,7 +30,7 @@ windows: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically li
 
 The program wants the user to input a password (flag). If the password incorrect, it will show this.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Checking the code using Ghidra, i can see that line 18 compares variable **local\_d** with array **arr**.
 
