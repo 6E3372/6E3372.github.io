@@ -62,6 +62,9 @@
 * [WolvCTF 2024](ctf-writeups/wolvctf-2024/README.md)
   * [pwn](ctf-writeups/wolvctf-2024/pwn/README.md)
     * [babypwn](ctf-writeups/wolvctf-2024/pwn/babypwn.md)
+* [TexSAW CTF 2024](ctf-writeups/texsaw-ctf-2024/README.md)
+  * [rev](ctf-writeups/texsaw-ctf-2024/rev/README.md)
+    * [Catch The White Rabbit](ctf-writeups/texsaw-ctf-2024/rev/catch-the-white-rabbit.md)
 
 ## 👽 Threat Hunting
 
