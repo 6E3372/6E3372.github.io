@@ -8,7 +8,7 @@
 
 The task is very simple. Catch the White Rabbit.
 
-The catch is, we only have 100 value of stamina only and it drains quickly when we trying to sprint.
+The catch is, we only have **100 value of stamina** only and it **drains quickly** when we trying to sprint.
 
 So, we use Cheat Engine to solve this problem.
 
@@ -19,8 +19,6 @@ Search the address variable that stored the stamina value and change it to a hig
 A few adjusment done on my character position in-game, and we're good to go.
 
 Just sprint towards the rabbit until the end of the hall and the rabbit will give us a flag.
-
-&#x20;
 
 <figure><img src="../../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 

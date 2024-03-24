@@ -10,9 +10,9 @@ Given a .txt file that contains a web server log.
 
 <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-Upon analysis, we there were important directories that have been access such as /login and /admin.
+Upon analysis, we there were important directories that have been access such as **/login** and **/admin**.
 
-Filtering out these directories using cat logs.txt | grep /admin give as a list of /admin directories and sub directory being access.
+Filtering out these directories using `cat logs.txt | grep /admin` give as a list of **/admin** directories and sub directory being access.
 
 What interesting is there are only one sub directory that we are aware of is accessibility on the internet
 
