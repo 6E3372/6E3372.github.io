@@ -58,6 +58,7 @@
   * [pwn](ctf-writeups/osu-gaming-ctf-2024/pwn/README.md)
     * [betterthanu](ctf-writeups/osu-gaming-ctf-2024/pwn/betterthanu.md)
 * [Crackmes](ctf-writeups/crackmes/README.md)
+  * [PieIsMyFav](ctf-writeups/crackmes/pieismyfav.md)
   * [Plain Sight](ctf-writeups/crackmes/plain-sight.md)
 * [WolvCTF 2024](ctf-writeups/wolvctf-2024/README.md)
   * [pwn](ctf-writeups/wolvctf-2024/pwn/README.md)
