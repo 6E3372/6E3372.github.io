@@ -70,7 +70,8 @@
     * [Malicious Threat](ctf-writeups/texsaw-ctf-2024/forensics/malicious-threat.md)
     * [MalWhere?](ctf-writeups/texsaw-ctf-2024/forensics/malwhere.md)
 * [pwnable.kr](ctf-writeups/pwnable.kr/README.md)
-  * [fd](ctf-writeups/pwnable.kr/fd.md)
+  * [Toddler's Bottle](ctf-writeups/pwnable.kr/toddlers-bottle/README.md)
+    * [fd](ctf-writeups/pwnable.kr/toddlers-bottle/fd.md)
 
 ## 👽 Threat Hunting
 

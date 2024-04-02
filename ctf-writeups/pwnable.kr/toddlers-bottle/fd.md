@@ -1,6 +1,6 @@
 # fd
 
-<figure><img src="../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -8,9 +8,9 @@
 
 Given a C file. Let's do some basic checking on it.
 
-<figure><img src="../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
 
 <pre class="language-c" data-title="fd.c" data-line-numbers><code class="lang-c">#include &#x3C;stdio.h>
 #include &#x3C;stdlib.h>
@@ -60,7 +60,7 @@ Between the lines, we can see there is a `read()` function which takes file desc
 
 So we input **4660** which then it will substract with 0x1234 and returns 0. Then write **LETMEWIN** to the program.
 
-<figure><img src="../../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
 
 Yeah. Nice challenge btw :thumbsup:
 
