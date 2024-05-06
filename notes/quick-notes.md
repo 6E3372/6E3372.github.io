@@ -18,7 +18,17 @@ description: >-
   * Ack
     * Respong with DHCPACK message to acknowledge the use of that IP
 
+## DHCP for IPv6
 
+* Operations
+  * SOLICIT&#x20;
+    * A client sends this message to locate DHCPv6 servers using the multicast address FF02::1:2, which is the all-DHCPv6-servers multicast address.
+  * ADVERTISE
+    * Servers respond to SOLICIT messages with a unicast ADVERTISE message, offering addressing information to the client.
+  * REQUEST
+    * The client sends this message to the server, confirming the addresses provided and any other parameters.
+  * REPLY&#x20;
+    * The server finalizes the process with this message.
 
 ***
 
