@@ -84,6 +84,7 @@
 
 ## 📚 Notes
 
+* [Quick Notes](notes/quick-notes.md)
 * [CTF Related](notes/ctf-related/README.md)
   * [pwn](notes/ctf-related/pwn/README.md)
     * [pwntools](notes/ctf-related/pwn/pwntools.md)
