@@ -81,6 +81,8 @@
 
 * [Intro](threat-hunting/intro.md)
 * [Common Tactics](threat-hunting/common-tactics.md)
+* [Methodologies](threat-hunting/methodologies.md)
+* [Types of threat hunting](threat-hunting/types-of-threat-hunting.md)
 
 ## 📚 Notes
 
