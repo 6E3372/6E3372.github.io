@@ -57,7 +57,7 @@ Basically, this challenge is very similar to a **pyjail** challenge.
 
 So we cannot use commands like `cat flag`, `grep "flag"` etc.
 
-If we input `ls` in the user input, the AI Assistant will provide a code that uses `exec()` which then being block.
+If we input `ls` in the user input, the AI Assistant will provide a code that uses `os.listdir()` which then being block.
 
 Instead, we use `os.execl()` for the user input.
 
@@ -65,7 +65,9 @@ List out the current directory, we can see the file named **flag** existed.
 
 <figure><img src="../../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
 
-Read the flag using **strings** command
+Also, the AI Assistant will use `print()` function if we input **strings flag** to the user input, which then being blocked aswell.
+
+So, read the flag using **strings** command and `os.execl()` function
 
 <figure><img src="../../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
 
