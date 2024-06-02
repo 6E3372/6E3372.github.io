@@ -24,7 +24,7 @@ Mencari username ITSLOKI adalah agak mustahil kerana terlalu banyak dan susah un
 
 Jadi saya mencari akaun milik Bahtera Siber.
 
-<figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 dan melihat followers akaun tersebut.
 

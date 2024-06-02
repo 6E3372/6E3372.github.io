@@ -76,6 +76,9 @@
 * [pwnable.kr](ctf-writeups/pwnable.kr/README.md)
   * [Toddler's Bottle](ctf-writeups/pwnable.kr/toddlers-bottle/README.md)
     * [fd](ctf-writeups/pwnable.kr/toddlers-bottle/fd.md)
+* [Codegate CTF 2024](ctf-writeups/codegate-ctf-2024/README.md)
+  * [ai](ctf-writeups/codegate-ctf-2024/ai/README.md)
+    * [ai\_warmup](ctf-writeups/codegate-ctf-2024/ai/ai\_warmup.md)
 
 ## 👽 Threat Hunting
 
