@@ -47,10 +47,30 @@ else:
 
 For the next part, the AI Assistant will generate a code based on the user input. The catch is, there are several words/command being blocked in the source code as shown as below.
 
+
+
+Basically, this challenge is very similar to a **pyjail** challenge.
+
 <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>blacklisted keyword</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-So we cannot use commands like `ls`, `cat flag`, `grep "flag"` etc.
+So we cannot use commands like `cat flag`, `grep "flag"` etc.
 
-Instead, we send a&#x20;
+If we input `ls` in the user input, the AI Assistant will provide a code that uses `exec()` which then being block.
+
+Instead, we use `os.execl()` for the user input.
+
+List out the current directory, we can see the file named **flag** existed.
+
+<figure><img src="../../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
+
+Read the flag using **strings** command
+
+<figure><img src="../../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
+
+***
+
+## Flag
+
+codegate2024{4105775410d0ff2ab259d36124e145bc96d9d6195aa9886a56f8d7cef70fafda3ceb91f0996fed616429a95519a513f6}
