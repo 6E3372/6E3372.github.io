@@ -1,6 +1,6 @@
 # The Time Equations
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -8,7 +8,7 @@
 
 When running the instant, we can see that the program wants us to give an answer for each variable a, b, c, d and e based on the given set of equations.
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 The source code
 

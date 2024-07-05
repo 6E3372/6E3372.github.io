@@ -79,6 +79,14 @@
 * [Codegate CTF 2024](ctf-writeups/codegate-ctf-2024/README.md)
   * [ai](ctf-writeups/codegate-ctf-2024/ai/README.md)
     * [ai\_warmup](ctf-writeups/codegate-ctf-2024/ai/ai\_warmup.md)
+* [Junior Crypt CTF 2024](ctf-writeups/junior-crypt-ctf-2024/README.md)
+  * [Misc](ctf-writeups/junior-crypt-ctf-2024/misc/README.md)
+    * [Terms of Use](ctf-writeups/junior-crypt-ctf-2024/misc/terms-of-use.md)
+  * [Forensics](ctf-writeups/junior-crypt-ctf-2024/forensics/README.md)
+    * [Admin Rights](ctf-writeups/junior-crypt-ctf-2024/forensics/admin-rights.md)
+    * [Confusion](ctf-writeups/junior-crypt-ctf-2024/forensics/confusion.md)
+  * [PPC](ctf-writeups/junior-crypt-ctf-2024/ppc/README.md)
+    * [l33t](ctf-writeups/junior-crypt-ctf-2024/ppc/l33t.md)
 
 ## 👽 Threat Hunting
 
