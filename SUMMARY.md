@@ -88,6 +88,12 @@
   * [PPC](ctf-writeups/junior-crypt-ctf-2024/ppc/README.md)
     * [l33t](ctf-writeups/junior-crypt-ctf-2024/ppc/l33t.md)
 
+## 📮 Room/Machine
+
+* [HTB - Sherlock](room-machine/htb-sherlock/README.md)
+  * [DFIR](room-machine/htb-sherlock/dfir/README.md)
+    * [Brutus](room-machine/htb-sherlock/dfir/brutus.md)
+
 ## 👽 Threat Hunting
 
 * [Intro](threat-hunting/intro.md)
