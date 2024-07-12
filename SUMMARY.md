@@ -136,4 +136,5 @@
 ## 😸 whoami
 
 * [About Me](whoami/about-me.md)
-* [Other](whoami/other.md)
+* [Other](whoami/other/README.md)
+  * [FYP](whoami/other/fyp.md)
