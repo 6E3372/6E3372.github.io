@@ -93,6 +93,7 @@
 * [HTB - Sherlock](room-machine/htb-sherlock/README.md)
   * [DFIR](room-machine/htb-sherlock/dfir/README.md)
     * [Brutus](room-machine/htb-sherlock/dfir/brutus.md)
+    * [Unit42](room-machine/htb-sherlock/dfir/unit42.md)
 
 ## 👽 Threat Hunting
 
