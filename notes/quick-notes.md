@@ -1,188 +1,111 @@
----
-description: >-
-  Purposely for my ip routing test. very last minute notes. might delete soon
-  (wish me luck tho)
----
-
 # Quick Notes
 
-## DHCP for IPv4
-
-* Operations
-  * Discover
-    * Send broadcast DHCPDISCOVER message to destination IP 255.255.255.255 and destination MAC FFFF:FFFF:FFFF. Source IP is 0.0.0.0 and MAC address of sending device
-  * Offer
-    * Respond with DHCPOFFER message with an unleased IP address, subnet mask, and default gateway information
-  * Request
-    * Sending a DHCPREQUEST message to request the use the offered IP
-  * Ack
-    * Respong with DHCPACK message to acknowledge the use of that IP
-
-## DHCP for IPv6
-
-* Operations
-  * SOLICIT&#x20;
-    * A client sends this message to locate DHCPv6 servers using the multicast address FF02::1:2, which is the all-DHCPv6-servers multicast address.
-  * ADVERTISE
-    * Servers respond to SOLICIT messages with a unicast ADVERTISE message, offering addressing information to the client.
-  * REQUEST
-    * The client sends this message to the server, confirming the addresses provided and any other parameters.
-  * REPLY&#x20;
-    * The server finalizes the process with this message.
-
-***
-
-## EIGRP
-
-* Enhanced Interior Gateway Routing Protocol
-* enhanced distance vector routing protocol commonly found in enterprise networks.
-
-<figure><img src="../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
-
-{% tabs %}
-{% tab title="Successor Router" %}
-* The route with the lowest path metric to reach a destination
-{% endtab %}
-
-{% tab title="Successor" %}
-* The first next-hop router for the successor route.
-{% endtab %}
-
-{% tab title="Feasible distance (FD)" %}
-* The metric value for the lowest-metric path to reach a destination
-*
-{% endtab %}
-
-{% tab title="Reported distance (RD)" %}
-* Distance reported by a router to reach a prefix
-{% endtab %}
-
-{% tab title="Feasibility condition" %}
-* For a route to be considered a backup route, the RD received for that route must be less than the FD calculated locally. This logic guarantees a loop-free path.
-{% endtab %}
-
-{% tab title="Feasible successor" %}
-* A route with that satisfies the feasibility condition is maintained as a backup route
-{% endtab %}
-{% endtabs %}
-
-
-
-### Configuration
-
-#### Classic Config
-
-```
-//Enable EIGRP
-R1(config)# router eigrp <AS_number> //AS_number is 1 to 65535
-
-//Identify network interfaces
-R1(config-router)# network <network_address> <wildcard_mask>
-```
-
-#### Named Mode
+## Chapter 5 - WLAN
 
 <details>
 
-<summary><strong>Benefits</strong></summary>
+<summary>Benefits</summary>
 
-* All the EIGRP configuration occurs in one location
-
-<!---->
-
-* It supports current EIGRP features and future developments
-
-<!---->
-
-* It supports multiple address families (including Virtual Routing and Forwarding \[VRF] instances). EIGRP named configuration is also known as multi-address family configuration mode
-
-<!---->
-
-* Commands are clear in terms of the scope of their configuration.
+* Extended reach
+* Device flexibility
+* Easier installation and management
+* Scability
+* Network Management
 
 </details>
 
-```
-R1(config)# router eigrp <name>
-```
+<details>
 
-#### Authentication
+<summary>Similarities with LAN</summary>
 
-```
-//Authentication
-R1(config)# keychain <keychain name>
-R1(config-keychain)# key <key number> //key number from 0 to 2147483647
-R1(config-keychain-key)# key-string <password>
+* LAN with limited geographic coverage
+* multitple stations (48-bit MAC Address)
+* shared transmission medium
+* CSMA-based Medium Access Control protocol
+* comparable data rates
 
-//Enable auth on int
-R1(config-if)# ip authentication key-chain eigrp <as number> <keychain name>
-R1(config-if)# ip authentication mode eigrp <as number> md5
+</details>
 
-//Enable auth on int (named mode)
-R1(config-router-af-interface)# authentication mode md5
-R1(config-router-af-interface)# authentication key-chain <key chain name>
+<details>
 
-//Verify
-R1# show key chain
-```
+<summary>Difference with LAN</summary>
 
-### Stub Concepts
+* wireless
+* mobile stations
+* half-duplex
+* hidden node
+* CSMA/CA
+* multiple data transmission rate
 
-go [here](https://chat.openai.com/share/68516431-b22d-40d8-a58d-9aa799edb648)
+</details>
 
-### Path Metric Calculation
+<details>
 
-<figure><img src="../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
+<summary>Applications of WLAN</summary>
 
-By default,
+* LAN extension
+* Cross building interconnect
+* Nomadic access
+* Ad Hoc network
 
-* K1 and K3 are 1
-* K2 , K4 , and K5 are 0
+</details>
 
-<figure><img src="../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+<details>
 
-### Route Summarization
+<summary>Element of WLAN</summary>
 
-```
-//Config
-//Classic
-R1(config-if)#ip summary-address eigrp <as number> <network> <subnet mask>
+* AP
+* Wifi cards
+* Safeguards
 
-//named mode
-R1(config-router-af-interface)# summary-address <network> <subnet mask>
-```
+</details>
 
-### Stub
+<details>
 
-```
-//Config
-R1(config-router)# eigrp stub
-```
+<summary>802.11 Topology</summary>
+
+* Basic Service Set (BSS)
+* Extended Service Set (ESS)
+* Independent Basic Service Set (IBSS)
+* Mesh Basic Service Set (MBSS)
+
+</details>
+
+<details>
+
+<summary>When to use MANET?</summary>
+
+* No infra available
+* too expensive to set up
+* no time to set up
+
+</details>
+
+<details>
+
+<summary>Problem of MANET</summary>
+
+* Lack centreal entity
+* Limited range of wireless communication
+* Mobility of participants
+* Battery-operated entities
+
+</details>
+
+<details>
+
+<summary>Ad Hoc network routing protocol</summary>
+
+* Table Driven Protocols
+  * require each node to maintain one or more tables to store routing info
+* On Demand Protocols
+  * flooding the network with Route Request packets
+* Hybrid Protocols
+  * combine proactive and reactive protocols
+
+</details>
 
 ***
 
-## OSPF
+## Chapter 6
 
-basic config[ here](networking-related/router/ospf.md)
-
-### Timer
-
-```
-//Hello
-R1(config-if)# ip ospf hello-interval <time> //time is from 1-65,535 in seconds
-
-//Dead
-R1(config-if)# ip ospf dead-interval <time> //time is from 1-65,535 in seconds
-```
-
-### DR/BDR
-
-Too lazy. go [here](https://chat.openai.com/share/a9f3a600-0f80-40e1-8926-1cd3fc5a074c)
-
-### LSA Types
-
-go [here](https://chat.openai.com/share/4a802455-be66-4ad8-99a4-1b35028a3138)
-
-### Stubby Things
-
-go [here](https://chat.openai.com/share/656e1bbd-0727-4af5-9e69-61244a1483f7)
