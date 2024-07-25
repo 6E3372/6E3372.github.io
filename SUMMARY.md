@@ -87,9 +87,6 @@
     * [Confusion](ctf-writeups/junior-crypt-ctf-2024/forensics/confusion.md)
   * [PPC](ctf-writeups/junior-crypt-ctf-2024/ppc/README.md)
     * [l33t](ctf-writeups/junior-crypt-ctf-2024/ppc/l33t.md)
-* [FIRST CTF for ASEAN](ctf-writeups/first-ctf-for-asean/README.md)
-  * [Network](ctf-writeups/first-ctf-for-asean/network/README.md)
-    * [Ping The Flag](ctf-writeups/first-ctf-for-asean/network/ping-the-flag.md)
 
 ## 📮 Room/Machine
 

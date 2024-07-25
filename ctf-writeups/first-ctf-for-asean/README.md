@@ -1,2 +1,0 @@
-# FIRST CTF for ASEAN
-
