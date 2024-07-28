@@ -87,6 +87,9 @@
     * [Confusion](ctf-writeups/junior-crypt-ctf-2024/forensics/confusion.md)
   * [PPC](ctf-writeups/junior-crypt-ctf-2024/ppc/README.md)
     * [l33t](ctf-writeups/junior-crypt-ctf-2024/ppc/l33t.md)
+* [IHack 2024 Qualification](ctf-writeups/ihack-2024-qualification/README.md)
+  * [Malware](ctf-writeups/ihack-2024-qualification/malware/README.md)
+    * [Confusing Javascript](ctf-writeups/ihack-2024-qualification/malware/confusing-javascript.md)
 
 ## 📮 Room/Machine
 
