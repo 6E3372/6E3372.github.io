@@ -1,5 +1,10 @@
 ---
+cover: ../.gitbook/assets/cat.jpg
+coverY: -196
 layout:
+  cover:
+    visible: true
+    size: full
   title:
     visible: true
   description:
@@ -16,17 +21,15 @@ layout:
 
 **Name :** n3r or 6E3372
 
-**Cert :** -
+**Interest :** pwn, rev, DFIR, Malware
 
-**Interest :** pwn & rev
+**Other Interest :** Marvel Cinematic Universe, Musics
 
-**Other Interest :** Marvel Cinematic Universe, Taylor Swift
+***
 
+## Local CTF Experience
 
-
-## CTF Experience
-
-I think it is safe to say that i am a newbie, considering i starting to explore this kind of stuff in 2022. Hoping a good journey for myself :thumbsup:
+I think it is safe to say that i am a newbie, considering i started to explore this kind of stuff in 2022. Hoping a good journey for myself :thumbsup:
 
 {% tabs %}
 {% tab title="2022" %}
@@ -54,6 +57,12 @@ I think it is safe to say that i am a newbie, considering i starting to explore 
 |         |        |                       |
 {% endtab %}
 {% endtabs %}
+
+{% embed url="https://app.hackthebox.com/profile/1334425" %}
+
+{% embed url="https://tryhackme.com/p/n3r" %}
+
+***
 
 ## MCU Character Once Said...
 
