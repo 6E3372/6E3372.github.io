@@ -17,7 +17,7 @@ description: shout out to Tryhackme for this interesting room!
 |     Guided by the initial scope of the incident     |                   Guided by Threat Intelligence                   |
 | "There's a threat that needs to be dealt with now." |         "There might be a threat that we don't know yet."         |
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

@@ -14,7 +14,7 @@ description: pyjail
 
 For the first part, it prompts us a CAPTCHA. Just input the right answer based on the question given and we can proceed to the next part.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% code title="solve_captcha.py" lineNumbers="true" %}
 ```python
@@ -51,9 +51,9 @@ For the next part, the AI Assistant will generate a code based on the user input
 
 Basically, this challenge is very similar to a **pyjail** challenge.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>blacklisted keyword</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption><p>blacklisted keyword</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 So we cannot use commands like `cat flag`, `grep "flag"` etc.
 

@@ -99,6 +99,7 @@
   * [DFIR](room-machine/htb-sherlock/dfir/README.md)
     * [Brutus](room-machine/htb-sherlock/dfir/brutus.md)
     * [Unit42](room-machine/htb-sherlock/dfir/unit42.md)
+    * [Jingle Bell](room-machine/htb-sherlock/dfir/jingle-bell.md)
 
 ## 📚 Notes
 

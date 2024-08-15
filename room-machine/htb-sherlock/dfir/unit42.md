@@ -1,8 +1,8 @@
 # Unit42
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -12,7 +12,7 @@
 
 Filter out the event that have event ID 11, we a total number of **56**.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -22,7 +22,7 @@ Filter out the event that have event ID 11, we a total number of **56**.
 
 Analyzing event ID 1, we can see there are one file that is named suspiciously which is **C:\Users\CyberJunkie\Downloads\Preventivo24.02.14.exe.exe**
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -34,7 +34,7 @@ Looking at the timestamp of the malicious file, we search for event ID 22 that i
 
 We can assume that the attacker used **DropBox** to distribute the malware.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -44,7 +44,7 @@ We can assume that the attacker used **DropBox** to distribute the malware.
 
 Find the keyword PDF, we can see that the file time creation is changed from 2024-02-14 03:41:58 to **2024-01-14 08:10:06** .
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -54,7 +54,7 @@ Find the keyword PDF, we can see that the file time creation is changed from 202
 
 Filter out once.cmd, we can see the full path of the file. Which also we can conclude that this file is related to the malicious process we found earlier.
 
-<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -64,7 +64,7 @@ Filter out once.cmd, we can see the full path of the file. Which also we can con
 
 Looking at bottom of the logs, we can see that the malicious process it trying to connect with a domain name which is **www.example.com** .
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -74,7 +74,7 @@ Looking at bottom of the logs, we can see that the malicious process it trying t
 
 Looking up at event ID 3, we can found the destination IP address that the system trying to reach out, which is **93.184.216.34**
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -84,5 +84,5 @@ Looking up at event ID 3, we can found the destination IP address that the syste
 
 Looking at event ID 5, the malicious process terminate itself at **2024-02-14 03:41:58**
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 

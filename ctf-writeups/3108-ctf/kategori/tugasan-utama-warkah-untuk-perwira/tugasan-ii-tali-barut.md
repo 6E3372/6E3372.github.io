@@ -24,25 +24,25 @@ Mencari username ITSLOKI adalah agak mustahil kerana terlalu banyak dan susah un
 
 Jadi saya mencari akaun milik Bahtera Siber.
 
-<figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 dan melihat followers akaun tersebut.
 
 Tanpa sengaja, saya terjumpa satu akaun bernama `p3tualang`
 
-<figure><img src="../../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Tanpa ragu-ragu, saya pergi ke akaun tersebut dan mendapati satu link ke discord server ITSLOKI pada salah satu videonya
 
-<figure><img src="../../../../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Okay, tapi kenapa p3tualang? Pada Tugasan 1, terdapat satu gambar yang diberi apabila kita ekstrak file `.eml` tersebut. Saya dapati beberapa nama terpapar pada gambar tersebut yang berkemungkinan ada hubungan dengan ITSLOKI, dan salah satunya adalah p3tualang
 
-<figure><img src="../../../../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Pergi ke discord server tersebut, pada channel ddos, social-enginnering dan ransomware saya mendapati bahawa terdapat mesej pelik yang dihantar oleh 0xm4mbang
 
-<figure><img src="../../../../.gitbook/assets/image (11) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td><img src="../../../../.gitbook/assets/image (16) (1) (1) (1).png" alt="" data-size="original"></td><td></td></tr><tr><td></td><td><img src="../../../../.gitbook/assets/image (17) (1) (1) (1).png" alt="" data-size="original"></td><td></td></tr><tr><td></td><td><img src="../../../../.gitbook/assets/image (18) (1) (1) (1).png" alt="" data-size="original"></td><td></td></tr></tbody></table>
 

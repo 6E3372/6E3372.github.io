@@ -1,6 +1,6 @@
 # Terms of Use
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -8,7 +8,7 @@
 
 Upon unzipping the **Malware.zip**, we will be provided a microsoft word file.
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 From here, my guess is the author inject a macro code inside it.
 
@@ -16,7 +16,7 @@ Tools like olevba are capable of extracting the macro code inside a malicious do
 
 Run command `olevba <filename>` and we should retrieve a flag
 
-<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
