@@ -100,16 +100,8 @@
     * [Brutus](room-machine/htb-sherlock/dfir/brutus.md)
     * [Unit42](room-machine/htb-sherlock/dfir/unit42.md)
 
-## 👽 Threat Hunting
-
-* [Intro](threat-hunting/intro.md)
-* [Common Tactics](threat-hunting/common-tactics.md)
-* [Methodologies](threat-hunting/methodologies.md)
-* [Types of threat hunting](threat-hunting/types-of-threat-hunting.md)
-
 ## 📚 Notes
 
-* [Quick Notes](notes/quick-notes.md)
 * [CTF Related](notes/ctf-related/README.md)
   * [pwn](notes/ctf-related/pwn/README.md)
     * [pwntools](notes/ctf-related/pwn/pwntools.md)
@@ -138,6 +130,19 @@
     * [Config Switch to use SSH](notes/networking-related/switch/config-switch-to-use-ssh.md)
 * [Assembly Language](notes/assembly-language.md)
 * [x86 Architecture](notes/x86-architecture.md)
+
+## 🛠️ Tools
+
+* [DFIR](tools/dfir.md)
+* [Malware Analysis](tools/malware-analysis.md)
+* [Essentials](tools/essentials.md)
+
+## 👽 Threat Hunting
+
+* [Intro](threat-hunting/intro.md)
+* [Common Tactics](threat-hunting/common-tactics.md)
+* [Methodologies](threat-hunting/methodologies.md)
+* [Types of threat hunting](threat-hunting/types-of-threat-hunting.md)
 
 ## 😸 whoami
 

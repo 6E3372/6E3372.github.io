@@ -50,11 +50,11 @@ I think it is safe to say that i am a newbie, considering i started to explore t
 {% endtab %}
 
 {% tab title="2024" %}
-| Ranking | Team   | Event                 |
-| ------- | ------ | --------------------- |
-| 7th     | R3BUNG | Final RENTAS CTF 2024 |
-|         |        |                       |
-|         |        |                       |
+| Ranking | Team   | Event                    |
+| ------- | ------ | ------------------------ |
+| 7th     | R3BUNG | Final RENTAS CTF 2024    |
+| 2nd     | C1C4D4 | Code Combat X IHack 2024 |
+|         |        |                          |
 {% endtab %}
 {% endtabs %}
 
