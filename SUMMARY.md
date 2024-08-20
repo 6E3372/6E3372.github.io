@@ -110,7 +110,7 @@
     * [Integer Overflow](notes/ctf-related/pwn/integer-overflow.md)
     * [Executable Properties](notes/ctf-related/pwn/executable-properties.md)
     * [gdb-gef](notes/ctf-related/pwn/gdb-gef.md)
-    * [Simple Script](notes/ctf-related/pwn/simple-script.md)
+    * [Template Script](notes/ctf-related/pwn/template-script.md)
   * [b2r/koth](notes/ctf-related/b2r-koth.md)
 * [Networking Related](notes/networking-related/README.md)
   * [Basic Configuration](notes/networking-related/basic-configuration.md)
