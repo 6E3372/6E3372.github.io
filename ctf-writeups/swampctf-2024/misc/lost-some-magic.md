@@ -1,6 +1,6 @@
 # Lost Some Magic
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -16,7 +16,7 @@ Given a **data** file to get started. Based on the challenge description, it men
 
 Basically, we need to change the file header signature to revert to the original file.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>file signature for data file</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>file signature for data file</p></figcaption></figure>
 
 As we can see from the picture above, the starting byte for the file header signature is **B** or **42** in hex.
 

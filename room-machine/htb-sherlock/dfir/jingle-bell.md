@@ -1,8 +1,8 @@
 # Jingle Bell
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -19,7 +19,7 @@
 
 Upon analysing the database, there were rows that were tagged with "toast". The application used in this communication can be seen in the payload section. Which is [slack](https://slack.com/).&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt="" width="443"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt="" width="443"><figcaption></figcaption></figure>
 
 ***
 

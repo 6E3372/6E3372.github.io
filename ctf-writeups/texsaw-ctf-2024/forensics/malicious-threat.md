@@ -8,7 +8,7 @@
 
 Given a .txt file that contains a web server log.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Upon analysis, we there were important directories that have been access such as **/login** and **/admin**.
 
