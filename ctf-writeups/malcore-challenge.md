@@ -1,5 +1,7 @@
 # Malcore Challenge
 
+<figure><img src="../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
+
 {% embed url="https://raw.githubusercontent.com/Internet-2-0/file-samples/master/scripts/batch/stacysmom.bat" %}
 
 ***
