@@ -10,7 +10,7 @@ In any language, not only C, have its own [variable type](#user-content-fn-1)[^1
 
 
 
-<img src="../../../.gitbook/assets/file.excalidraw.svg" alt="This image hopefully helps you to understand the explaination below" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.excalidraw (1).svg" alt="This image hopefully helps you to understand the explaination below" class="gitbook-drawing">
 
 For a better understanding on how it works, look at your analog clock. The clock has a limit of 12 numbers only. Let say the time right now is 9 am. In 12 hours, the clocks points back at number 9 but in pm. It does not point at number 21 right? Yeah that's how i understanding the limitations (i know it does not make sense, but why not :rofl:)
 

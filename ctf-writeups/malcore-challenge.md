@@ -253,6 +253,25 @@ Unzipping the file presents us with several files.
 └── stacysmom.zip
 ```
 
+Below are some of the content and properties of those files.
+
+```
+ch_1.lnk target properties:
+"C:\Program Files\Google\Chrome\Application\chrome.exe" "https://link.malcore.io"
+
+ed_9.lnk target properties:
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" "https://link.malcore.io"
+
+ff_3.lnk target properties:
+"C:\Program Files\Mozilla Firefox\firefox.exe" "https://link.malcore.io"
+
+autorun.ini content:
+[autorun]
+action=Stacys mom
+icon=just_m_logo.ico
+open=stacy.exe
+```
+
 The most interesting one is obviously **stacy.exe**
 
 ```
@@ -570,7 +589,12 @@ if __name__ == '__main__':
     decoded_string = base64.b64decode(encoded_string).decode()
     print(decoded_string)
     run_script()
-
 ```
 
-<img alt="" class="gitbook-drawing">
+***
+
+## Summary
+
+The execution of **stacysmom.bat** producing several files downloaded on the victim's host. There were a lot of obfuscation happening in those scripts as discussed before. The main purpose of the executables  is to accessing "https://link.malcore.io" url. With that, a simple diagram to understanding **stacysmom.bat** behavior are as below.
+
+<img src="../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
