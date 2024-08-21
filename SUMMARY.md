@@ -92,6 +92,7 @@
     * [Happy SPLUNKing](ctf-writeups/ihack-2024-qualification/dfir/happy-splunking.md)
   * [Malware](ctf-writeups/ihack-2024-qualification/malware/README.md)
     * [Confusing Javascript](ctf-writeups/ihack-2024-qualification/malware/confusing-javascript.md)
+* [Malcore Challenge](ctf-writeups/malcore-challenge.md)
 
 ## 📮 Room/Machine
 

@@ -14,7 +14,7 @@ description: pyjail
 
 For the first part, it prompts us a CAPTCHA. Just input the right answer based on the question given and we can proceed to the next part.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% code title="solve_captcha.py" lineNumbers="true" %}
 ```python
