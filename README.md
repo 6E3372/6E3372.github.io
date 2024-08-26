@@ -1,8 +1,7 @@
 ---
 description: Please have a nice visit here, any suggestion can contact me.
-cover: >-
-  https://www.rxwallpaper.site/wp-content/uploads/guardians-of-the-galaxy-baby-groot-live-wallpaper-wallpaper-hd-gallery-800x800.jpg
-coverY: 86
+cover: https://mrwallpaper.com/images/hd/baby-groot-waving-gou7d0jo5cljl848.jpg
+coverY: 124
 layout:
   cover:
     visible: true
