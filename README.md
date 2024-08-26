@@ -1,11 +1,11 @@
 ---
 description: Please have a nice visit here, any suggestion can contact me.
 cover: https://mrwallpaper.com/images/hd/baby-groot-waving-gou7d0jo5cljl848.jpg
-coverY: 124
+coverY: 380
 layout:
   cover:
     visible: true
-    size: hero
+    size: full
   title:
     visible: true
   description:
